@@ -1,0 +1,4 @@
+﻿model,n,json_ok,json_rate,error,bad_label,bad_reflux,bad_binary,bad_ef
+qwen2.5:14b,300,300,1.0,0,0,5,0,0
+qwen2.5:7b,300,300,1.0,0,0,0,0,0
+glm4:9b,300,300,1.0,0,0,97,0,0

@@ -1,0 +1,13 @@
+﻿source,file,rows,mobile,idcard18,idcard15,landline,email,address,hometown,name_title,name_field,longnum
+mother,gold_ecg_H.csv,570,0,0,0,0,0,0,0,0,0,0
+mother,gold_echo_PG.csv,600,0,0,0,0,0,0,0,0,0,0
+mother,gold_abdus_PG.csv,600,0,0,0,0,0,0,0,0,0,0
+mother,gold_abdus_H.csv,600,0,0,0,0,0,0,0,0,0,0
+release,ECG_H_待标注.csv,570,0,0,0,0,0,0,0,0,0,0
+release,ECHO_PG_待标注.csv,300,0,0,0,0,0,0,0,0,0,0
+release,ABDUS_PG_待标注.csv,300,0,0,0,0,0,0,0,0,0,0
+release,ABDUS_H_待标注.csv,300,0,0,0,0,0,0,0,0,0,0
+full_H,H_checkup_long.csv (ecg_text),122575,0,0,0,0,0,0,0,0,0,0
+full_H_analysis,H_analysis_long.csv (ecg_text),122575,0,0,0,0,0,0,0,0,0,0
+full_H_us,"H_us_text_long.csv (us_text,main_text)",121011,3,0,0,0,0,0,0,0,0,4
+full_PG,"pg_arm_long.csv (ecg_text,fatty_text,plaque_text)",129953,0,0,0,0,0,0,0,0,0,0

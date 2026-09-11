@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """03_llm_batch_run_template.py —— LLM跑批模板（OpenAI兼容endpoint，本地vLLM/任意后端）
 要点：temperature=0、seed固定、prompt从模板文件读、输入输出sha256双hash留痕、断点续跑
-用法：配置 ENDPOINT/MODEL 后 `python 03_llm_batch_run_template.py --input data/gold_echo_PG.csv --out data/llm_echo_PG_run1.csv`
+用法：配置 ENDPOINT/MODEL 后 `python 03_llm_batch_run_template.py --input data/gold_echo_PG_300.csv --out results/llm_echo_run1.csv`
 """
 import argparse
 import hashlib

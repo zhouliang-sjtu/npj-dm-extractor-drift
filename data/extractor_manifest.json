@@ -1,4 +1,4 @@
-{
+﻿{
   "protocol": "LLM text-extraction measurement protocol v1.1 (double-annotated gold-standard subset: 1,470 reports across three text domains)",
   "extractors": [
     {
@@ -93,7 +93,7 @@
   "runtime_disclosure": {
     "serving": "Ollama (local, OpenAI-compatible endpoint)",
     "ollama_version": "0.24.0 (re-verified in the release environment, 2026-09-11; per-batch version was not logged at run time — cross-hardware bit-exact determinism is not claimed; see manuscript Limitations)",
-    "quantization": "Ollama tag default",
+    "quantization": "Q4_K_M for Qwen2.5-14B/7B-Instruct, Q4_0 for GLM-4-9b-chat (Ollama tag defaults, verified 2026-09-11)",
     "determinism": "temperature=0 + seed=42; deterministic within identical software/hardware environments only"
   },
   "updated": "2026-09-10"

@@ -9,7 +9,7 @@ This index lists every released file (or file group) with its role and where it 
 ## 1. Repository map
 
 ```
-code/      38 analysis & governance scripts (Python 3.11 + one Node.js ingest script)
+code/      34 data-governance & statistical-analysis scripts (Python 3.11 + one Node.js ingest script)
 data/      Gold-standard benchmark (6 de-identified files), extractor manifest,
            sample-list ecg_text_samples_2021_2022.txt, and llm_outputs/ (8 archived
            raw LLM response files)
@@ -17,7 +17,8 @@ docs/      prompts/   2 frozen LLM prompts (SHA-256 prefixes in data/extractor_m
            codebook/  Annotation manual v1.0/v2.0, column definitions, dataset
                       descriptions (MD + PDF; authored in Chinese at the source
                       institution — English summaries in Methods and SI Note 3)
-figures/   Figures 1–5 and Supplementary Figure 1 (PNG 300 dpi + PDF)
+figures/   Figures 1–5 and Supplementary Figure 1 (PNG 300 dpi + PDF), released
+           as final publication artefacts
 results/   34 statistical artefacts referenced by the manuscript and SI
 ```
 
@@ -62,8 +63,8 @@ results/   34 statistical artefacts referenced by the manuscript and SI
 | LLM batching & smoke tests | `03_llm_batch_run_template.py`, `08_llm_prerun_qc.py`, `00_smoke_llm_ollama.py`, `21_prompt_v21_smoke.py`, `26_ecg_prompt_smoke.py` | Batch runner (temperature 0, seed 42, dual SHA-256 logging, resumable), pre-run QC, prompt smoke tests |
 | Annotation workflow | `13_recycle_verify.py`, `14_arbitration_queue.py`, `15_make_arbitration_workbook.py`, `16_merge_arbitration.py`, `17_make_relabel_workbook.py`, `20_round2_repeat_stats.py` | Arbitration queue/workbook/merge, v2.0 re-annotation bookkeeping, self-repeat statistics |
 | Agreement & acceptance | `04_agreement_stats.py`, `22_m2c_qc.py`, `23_m2d_acceptance.py`, `29_ecg_acceptance.py`, `31_bootstrap_ci.py`, `30_audit_verify.py` | κ/AC1/F1 computation, acceptance gates, bootstrap CIs, 83-claim number audit |
-| Phantom associations & QBA | `06_phantom_simex.py`, `25_make_table2.py`, `27_m5b_simex_backfill.py`, `32_phantom_ci.py`, `33_grid_simcheck.py`, `35_phantom_differential_replay.py` | SIMEX correction, Table 2 assembly, κ→HR grid + Monte-Carlo check, year-indexed replay |
-| Figures | `19_figure1_flow.py`, `28_peryear_fig4.py`, `34_make_figures_v2.py` | Figures 1–4 and Supplementary Figure 1 |
+| Phantom associations & QBA | `06_phantom_simex.py`, `27_m5b_simex_backfill.py`, `32_phantom_ci.py`, `33_grid_simcheck.py`, `35_phantom_differential_replay.py` | SIMEX correction, κ→HR grid + Monte-Carlo check, year-indexed replay |
+| Yearly agreement statistics | `28_peryear_fig4.py` | Year-stratified κ computation for Fig. 2b/4 and `results/m3d_peryear.csv` |
 | Latency | `24_m3c_latency.py` | Per-report latency and GPU-cost accounting |
 | Governance & compliance | `09_update_manifest.py`, `10_pii_scan.py` | Manifest registration (freeze/hash), automated PII screening |
 | SI verification & robustness | `42_confirm_si_note3_exemplars.py`, `49_rebuttal_analyses.py`, `50_prompt_perturbation.py` | SI exemplar traceability; E-value/Wilson/replay-proxy resampling; prompt-perturbation experiment |

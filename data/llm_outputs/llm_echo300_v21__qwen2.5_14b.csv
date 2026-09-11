@@ -1,0 +1,1661 @@
+﻿sample_id,input_hash,llm_raw,output_hash
+ECHO_0181,7982d95ce45ae5ae,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，二尖瓣口见轻度返流、三尖瓣口见中度返流，返流面积约6.4平方厘米，余瓣口未见明显返流。""
+}",d680611289fc966c
+ECHO_0155,6d1f000b077d612f,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 64,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约42mm，CDFI:二尖瓣口见轻度返流、三尖瓣口见中度返流""
+}",e709afea6e78b95c
+ECHO_0112,f5050a8600acfb05,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 54,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房增大，余房室大小正常；二尖瓣、主动脉瓣口见少量返流、三尖瓣口见轻度返流""
+}",9720eb6947991e84
+ECHO_0248,83240184cc1998c4,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":1,""ef"":58,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""左房内径约40mm；心包腔可见液性暗区""}",0344acf6f477dbcf
+ECHO_0061,901ad6a88382967e,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，主动脉瓣口见中度返流""
+}",7da1848c67b30449
+ECHO_0010,4ec96fba3adde8d3,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：69%；二尖瓣、三尖瓣口见少量返流""
+}",520e2c58a6468705
+ECHO_0120,fc9238f781ca951c,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见中度返流。""
+}",250933df8af7ad86
+ECHO_0158,f1c6374f914c1113,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流、三尖瓣口见中度偏心返流，返流面积约8平方厘米""
+}",50e90593382ae5e2
+ECHO_0168,ab7bca1a4a811378,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 38,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约40.9mm，二尖瓣口见中度返流""
+}",9952a72e5f34bf62
+ECHO_0034,02026b6c75637ae9,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、主动脉瓣口见少量返流、三尖瓣口见中度返流，流速约229cm/s""
+}",fffe0ad2b0fe752b
+ECHO_0006,5e9db59e34f94995,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 58,
+  ""reflux_grade"": ""severe"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房(前后径约39mm，左右径约50mm，上下径约57mm)，三尖瓣口见重度返流""
+}",2056cd18e620e4ea
+ECHO_0102,e7f05c45caabece3,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径增宽，余房室大小正常；二尖瓣口见少量返流、三尖瓣口见中度返流""
+}",53bbf56e8c903b7b
+ECHO_0046,2579c0362ebcb796,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：63%；CDFI:二尖瓣、肺动脉瓣口见轻度返流""
+}",ec0175e388d89dca
+ECHO_0177,c533f6502e57fd82,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":1,""ef"":67,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""左房形态饱满；二尖瓣口见中度返流""}",1ab6199ca3a027f7
+ECHO_0119,f5360ff22663eea9,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，缩流颈约4.1mm""
+}",04d4dd01591d5ba1
+ECHO_0047,cc9b25190e1d3f2c,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":63,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""二尖瓣口见中度返流，返流面积约4.1平方厘米；心包腔可见液性暗区""}",89d0377bab8fe28d
+ECHO_0126,beacf102ba765570,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流；三尖瓣口见中度返流，缩流颈宽约5.7mm。""
+}",4ec56696c4b728ce
+ECHO_0194,8f8e1552f5b9289e,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 60,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，缩流颈宽约4.1mm""
+}",1bb48b8d9875ad3d
+ECHO_0241,6cf8a3e866d05513,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，三尖瓣口见轻度返流""
+}",ed4e9828260869d0
+ECHO_0144,d6327953360d8478,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流""}",828c10ff25d2641b
+ECHO_0230,70cea69ac8b2e489,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild_severe"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣、肺动脉瓣口见轻度返流；主动脉瓣中度返流""
+}",9742d593aa71ef99
+ECHO_0279,d19bd26642cce394,"{""label"":""abnormal"",""lvh"":1,""la_dilate"":0,""ef"":69,""reflux_grade"":""moderate"",""rhythm"":1,""evidence"":""自诉房颤术后。室间隔厚度：12mm，二尖瓣、三尖瓣、主动脉瓣口见轻度返流。""}",4ec5fb0aa5f76729
+ECHO_0245,cfc508e08204747d,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见中度返流，三尖瓣口见少量返流""
+}",2c6544b413645aa4
+ECHO_0026,f16fe8798b888cb7,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻-中度返流，二尖瓣、肺动脉瓣口见轻度返流""
+}",375c555789fae7af
+ECHO_0148,9ffb817407afb749,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣、主动脉瓣口见轻度返流，二尖瓣口见中度返流""}",e224e0001bc28eb8
+ECHO_0222,29010796acadf9f3,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":38,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""射血分数（EF）：38%；左室内径约65mm，余各腔室大小正常。左室前壁、前间壁中间段、室间隔心尖部室壁变薄，最薄处约5.5mm、回声增高，运动幅度及增厚率近乎消失；二尖瓣、三尖瓣口见少量返流""}",6d45d026b634f932
+ECHO_0256,1def77168ffff948,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 37,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约50mm，EF：37%，二尖瓣口见中-重度返流，三尖瓣口见中度返流""
+}",65358f73d4b3a0c1
+ECHO_0074,ff8e25701b3e7573,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣口见少量返流，主动脉瓣口见中度返流""
+}",0b454eef810fbb86
+ECHO_0233,640861d12dc8cb3c,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""二尖瓣口见中度返流，三尖瓣、主动脉瓣口见轻度返流""}",f3e61c634d3c6c94
+ECHO_0110,7885a6210205d6bf,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 47,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约40mm，射血分数（EF）：47%，二尖瓣、三尖瓣口见轻度返流""
+}",91b9cc4ef4daf063
+ECHO_0141,5e118a73d5907b01,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":1,""ef"":43,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""左房内径约44mm，EF：43%""}",8134d92888d367ee
+ECHO_0286,dc8e615c56d9888e,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约37mm，二尖瓣口见轻度返流，三尖瓣口见中度返流""
+}",f8cd76f94c9835af
+ECHO_0210,a3cdd9d40df75f51,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 60,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约48mm，室间隔厚度：12.5mm，左室后壁厚度：12.0mm，二尖瓣、主动脉瓣口见轻度返流。三尖瓣口见轻-中度返流""
+}",9d31bb1539dde759
+ECHO_0043,cce2acaf23a3e1ca,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":1,""ef"":37,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""左室内径约62mm；射血分数（EF）：37%；二尖瓣口见轻度返流""}",56dfdb0f6c08ae4c
+ECHO_0018,9e69d30e257878ef,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 74,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径约44mm，左房增大；室间隔厚约13mm""
+}",d8c728cc1bbe4a19
+ECHO_0281,2e1c1871070d80c7,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流，主动脉瓣口见中度返流，返流面积约5.8平方厘米""
+}",230940098ed81921
+ECHO_0077,a03ec09c3be28bf6,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":1,""ef"":56,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""左房内径约46mm，三尖瓣侧壁瓣环位移约16mm。CDFI:房、室间隔未见过隔血流，三尖瓣口见轻-中度返流""}",0e913612973e8ffe
+ECHO_0091,9eb14c749eb13a76,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度约12mm，主动脉瓣口见少-中度返流""
+}",c2bc751191f25e70
+ECHO_0025,63048de01498d499,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流（返流面积7.16平方厘米），余瓣口未见明显返流。""
+}",6a7ccb8cc100b760
+ECHO_0058,5e90ae2f9b61606a,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 70,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流""
+}",0eb871b17b00d619
+ECHO_0093,3e6ffb2ab4328a9a,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 70,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约39mm，二尖瓣口见中度返流""
+}",6f4e624b680aba64
+ECHO_0078,509c0bd6c1c8e778,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":73,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见轻-中度返流""}",c2e3864a18e47fc7
+ECHO_0214,71e6ad768b56c0bd,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 71,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，缩流颈约4.2mm，二尖瓣口见轻度返流""
+}",f3259532d2d5212d
+ECHO_0117,41491279a6015931,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 68,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约50mm，余房室大小正常，室间隔与左室后壁对称性增厚，室间隔厚度：17mm，左室后壁厚度：15mm""
+}",95cd21d34dfab379
+ECHO_0008,10844d3e3b769748,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流""
+}",26a8e4f358912ae1
+ECHO_0289,fc2554487c803ef6,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见轻-中度返流""
+}",ec46c35823d5d83f
+ECHO_0283,1c585e9194dd5b92,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，缩流颈宽约5.8mm。""
+}",540de7755aed96d4
+ECHO_0079,bf6c5a639aa728f2,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，主动脉瓣口见中度返流""
+}",a719ac7ce7e7f628
+ECHO_0294,6cd7b43279e99522,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""trace_mild_severe"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣、肺动脉瓣口见轻度返流；主动脉瓣中度返流""
+}",904e01279390bed5
+ECHO_0234,a93e99d691e5bd32,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见轻-中度返流""}",0d0fbddb56301dc0
+ECHO_0254,0b5091b08ade5c75,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 70,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流。""
+}",e863127477a3eefb
+ECHO_0257,66efa85382c109ff,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径约40mm，二尖瓣口见轻度返流，三尖瓣口见中度返流""
+}",b46623978257fda7
+ECHO_0064,a0a3dd8e45dff69e,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":60,""reflux_grade"":""trace_mild"",""rhythm"":1,""evidence"":""右心腔内可见起搏器回声。,三尖瓣口见轻度返流""}",f90b930d80411abf
+ECHO_0083,4ba134de77abb83a,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":48,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣、主动脉瓣口见轻度返流""}",e82c2d3dcc16ac5e
+ECHO_0285,4ec8823f675bb5ae,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见中度返流，返流速度约463cm/s""
+}",a7ff8e6011ef200e
+ECHO_0240,04a46d29fda9188c,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 74,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约43.1mm，余房室大小正常，室间隔增厚，最厚处约18.1mm""
+}",2ed4c8d0307e6449
+ECHO_0219,d624abc992e96eac,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔增厚，以基底段为著，厚约13mm""
+}",bb4482b2023119c4
+ECHO_0105,44779fd24fb336ac,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，二尖瓣口见轻度返流""
+}",6a7ed2c24ee307f1
+ECHO_0470,81764beec978a018,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径：41mm，三尖瓣口见少量返流。""
+}",a3b4ead984538be0
+ECHO_0195,d96422e486bc146a,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度约12mm，左室后壁厚度约13mm；主动脉瓣口见中度返流""
+}",f7fe15bb9fac5460
+ECHO_0186,2ee44749c4bb8a47,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约40mm，二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见中度返流""
+}",7e3ef5122bcb282f
+ECHO_0270,99218d0f72441310,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口可见中度返流""}",05398257768a5511
+ECHO_0212,56b7b9a340b69726,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：12mm，左室后壁厚度：12mm；二尖瓣口见轻度返流，三尖瓣口见中度返流""
+}",cb53491f3fb307e2
+ECHO_0198,fc74feb0f10b9959,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""severe"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房(前后径约39mm，左右径约50mm，上下径约58mm)，三尖瓣口见重度返流""
+}",c73926289a62dbf5
+ECHO_0076,4e1ede91ba1eac95,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见中度返流，返流缩流颈宽约4.0mm，返流速度约266cm/s。""}",7f0cca87d3aafa3b
+ECHO_0178,b5affdd1dc6c14ea,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：12mm，左室后壁厚度：12mm；三尖瓣口见中度返流""
+}",ab1a9262e01e0677
+ECHO_0060,e0a1e64500148d5d,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流，返流面积约8.2平方厘米，二尖瓣口见轻度返流""}",d60b0951aa3a0a5f
+ECHO_0094,aa570f80fb69f17b,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 68,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约41mm，二尖瓣口见轻度返流，三尖瓣口见轻-中度返流""
+}",042582d0071a44ed
+ECHO_0007,5ffc936a6a41495b,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见轻-中度返流，缩流颈约3.3mm。二尖瓣、三尖瓣口见轻度返流""}",259c0f95b6136591
+ECHO_0179,e40c82ed9e3796a1,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":43,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""射血分数（EF）：43%\nCDFI:房、室间隔未见过隔血流，二尖瓣口见轻度返流""}",4073fe804ee66ea7
+ECHO_0031,47563d6e78e967a3,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":48,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""射血分数（EF）：48%""}",bce33c5fbc3a14a4
+ECHO_0023,35b0429953e170d0,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 61,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 1,
+  ""evidence"": ""心律不齐；左房前后径约46.5mm，余房室大小正常，室间隔厚度：12.4mm， 左室后壁厚度：11.0mm；二尖瓣口见轻度返流；三尖瓣口见中度返流""
+}",31fb86145b532524
+ECHO_0260,3091034ebe5c9c87,"{""label"":""abnormal"",""lvh"":1,""la_dilate"":1,""ef"":52,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""左房内径约43mm，余房室大小正常，室间隔厚度：12mm；射血分数（EF）：52%；CDFI:主动脉瓣口见轻-中度返流，二尖瓣口见轻度返流；心包腔可见液性暗区""}",c57e0ea3d5597e8e
+ECHO_0057,2f284d03638b656b,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""二尖瓣口见轻-中度返流，返流面积约5.8平方厘米""}",66cff7e1cf3c8de2
+ECHO_0274,181e30f63475d6b6,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，二尖瓣、肺动脉瓣口见轻度返流""
+}",651516a928c7c517
+ECHO_0115,f684d0e2f06aaedb,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流""}",00f3c42bef21c07c
+ECHO_0133,502a13bd198fc0f6,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 64,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约40mm，室间隔厚度约12mm，左室后壁厚度约12mm，三尖瓣口见中度返流""
+}",7b49590a3643a953
+ECHO_0237,b899342d21f7ddd0,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 47,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""射血分数（EF）：47%；二、三尖瓣口见少量返流、主动脉瓣口见轻度返流。""
+}",101f0a95db80dd68
+ECHO_0199,a6191c52610b1d14,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，二尖瓣口见中度返流，返流面积约5.4平方厘米""
+}",eae3851a90cca180
+ECHO_0204,eb8902967f3f95cd,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见轻-中度返流，余瓣口未见明显返流。""
+}",d8fdd5b084dab23b
+ECHO_0166,bd3615ce03f4eae6,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流""
+}",92b2b4f75d0e21bf
+ECHO_0251,007c51369a4a0dda,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 1,
+  ""evidence"": ""可见早搏。""
+}",905f8408ad53b3c3
+ECHO_0085,dfa38c5654ce2b98,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 74,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径约44.6mm，左室舒张期内径约36.8mm，左室壁非对称性肥厚，以室间隔为著，较厚约19.5mm""
+}",2bd701606fcc98c7
+ECHO_0067,b8df9e972c358e86,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 1,
+  ""evidence"": ""可见早搏。""
+}",129679dbff2c9d8d
+ECHO_0114,9934580e632e7090,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，返流面积约10平方厘米""
+}",8a33547d1ef9936a
+ECHO_0169,ddaaae49e14470d5,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，返流速度约362cm/s""
+}",268729727de93ca6
+ECHO_0147,427cb9b4ed1a0dff,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":1,""ef"":52,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""心脏各腔室明显增大，右心室左右径约30mm，左心室左右径约57mm，升主动脉宽约30mm，左房约41mm；三尖瓣口见中度返流，二尖瓣口见中度返流""}",c0bbb78f7450d671
+ECHO_0020,d556d0fe0a7487d6,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，主动脉瓣口见中度返流，缩流颈约4.5mm,流速约201cm/s,余瓣口未见明显返流。""
+}",d592acd12811f806
+ECHO_0145,a78baace92debc18,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""CDFI:房、室间隔未见过隔血流，二、三尖瓣口见轻度返流、主动脉瓣口见中度返流，流速约474cm/s，余瓣口未见明显返流。""
+}",09f5153f770538f1
+ECHO_0080,20ece452f992f13d,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 1,
+  ""evidence"": ""左房前后径约40mm，室间隔厚度：14mm，左室后壁厚度：14mm，可见早搏。""
+}",1b0dde75b0af0030
+ECHO_0252,10a2864f7bae2bf8,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":41,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""射血分数（EF）：41%；局部室壁回声增强，运动减弱""}",7e8325c4b697a150
+ECHO_0125,9425c96cf509110e,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，二尖瓣、主动脉瓣口见轻度返流""
+}",6e946c4f66120406
+ECHO_0073,d0531a34ed6177a5,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，返流面积约7.4平方厘米""
+}",e3de44116bbe3b53
+ECHO_0016,470c1d3b54d212c9,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 1,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：69%；可见早搏；二尖瓣、三尖瓣口见轻度返流""
+}",df18adac864492f9
+ECHO_0011,db321a63d081537a,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":75,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流，返流面积约5.6平方厘米""}",8e413a3566aaba05
+ECHO_0165,ed249a3733fe8d22,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，缩流颈内径约4.7mm，速度约311cm/s""
+}",3727fecdb8160f20
+ECHO_0225,ab87474578344633,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见中度返流，缩流颈宽约5mm""}",1030c7f6c99e140b
+ECHO_0098,6dacf633ea278bde,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见中度返流""
+}",857448df4fafb6f3
+ECHO_0069,94f015d461732f9c,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 72,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚约12mm，主动脉瓣口见轻-中度返流""
+}",c2f676be14306aa2
+ECHO_0231,8a680e60f743ff69,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":63,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见中度返流""}",5bbdb9d7e0eb0156
+ECHO_0038,83da27d465ceb94b,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 72,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流，主动脉瓣口见轻-中度返流""
+}",3054e1c48aaa2d9e
+ECHO_0017,fbfd3f891037e7bc,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，三尖瓣口见轻度返流""
+}",0a4e649732b07587
+ECHO_0127,ab409526ef8f679d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":1,""evidence"":""自诉：2015年房颤术后。""}",89d2714c1a54c0b9
+ECHO_0153,2426eaffbb947caf,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":60,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""左室前心尖节段心肌变薄、似呈囊袋状外凸，底部宽约10mm、深度约5mm。主动脉瓣口见中度返流""}",79321f64b28ffce7
+ECHO_0275,c93d17cb8ede4173,"{""label"":""abnormal"",""lvh"":1,""la_dilate"":0,""ef"":62,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""左室心尖部室壁及室间隔弥漫性增厚，最大厚径约17.1mm；心包腔可见液性暗区""}",fff509cc7555b440
+ECHO_0068,c4af976dc5f0b5a7,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 45,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左室前壁、前间隔中间段，室间隔心尖段室壁变薄，回声增强，运动幅度近乎消失。射血分数（EF）：45%；二尖瓣后叶瓣根增厚、回声增强；二尖瓣、主动脉瓣、肺动脉瓣口见轻度返流""
+}",9e00e22dad3281c1
+ECHO_0109,6b6e05319914cc38,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 1,
+  ""evidence"": ""室间隔厚度（IVS）：12mm ， 左室后壁（LVPW）：12mm；可见早搏。""
+}",1a8ed9b2486a68ad
+ECHO_0070,fcfdedd21edd104c,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见中度返流，二尖瓣、三尖瓣口见轻度返流""
+}",2a6c3edb297556ef
+ECHO_0032,7d002f765976547e,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口可见中度返流""
+}",54c04744f06b88e8
+ECHO_0180,c23ff6ef3e853700,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、肺动脉瓣口见轻度返流，三尖瓣口见中度返流""
+}",842c8c487f8b2a5d
+ECHO_0156,84bd905bf02ca313,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流、肺动脉瓣口见轻度返流。余瓣口未见明显返流。""
+}",3e5aa2e09efe6563
+ECHO_0232,25d6341844747047,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左室后壁增厚，较厚处位于心尖部，厚约：17mm；二尖瓣口见中度返流""
+}",e0ec8d28e7c30b9a
+ECHO_0297,97240e7e70fd548a,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 73,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，EF：73%""
+}",f078e7c81f64b48c
+ECHO_0019,a54ed7cb1819c69c,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径：40mm；二尖瓣、三尖瓣口见少量返流""
+}",12e530b73f0c9c81
+ECHO_0187,56e27d0043ee63a2,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流，返流面积约6.4平方厘米，二尖瓣口见轻度返流""}",84c7ad379334716e
+ECHO_0097,010c1f973b8f1253,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见中度返流。""
+}",c1245f59f810a536
+ECHO_0138,309823b3076c07f5,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流，三尖瓣口见中度返流""
+}",a11320fb7ca1c7ae
+ECHO_0291,5437969709043d51,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 60,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，返流速度约248cm/s。""
+}",73b83a35cd4f717a
+ECHO_0087,3eae432e8a6752ab,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 46,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约41mm，余房室大小正常，EF：46%，二尖瓣、三尖瓣口见轻度返流""
+}",e1dcb27f34f3fdef
+ECHO_0255,20045841b42f0cde,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 74,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见中度返流，三尖瓣、肺动脉瓣口见轻度返流""
+}",1425611e6c56429f
+ECHO_0193,517b570913bb70c3,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":48,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""射血分数（EF）：48%""}",bce33c5fbc3a14a4
+ECHO_0235,c40c5cac2a20a747,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 59,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见中度返流，二尖瓣口见轻度返流""
+}",df8910342a5eb260
+ECHO_0259,9de58323e3a91eac,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见轻-中度返流，缩流颈约4mm，三尖瓣口见轻度返流""}",8450c43519f2f3ca
+ECHO_0293,e783f8bf4ab6e684,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 60,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左室壁弥漫性增厚，以心尖为著，较厚处约20mm；二尖瓣、主动脉瓣口见轻度返流""
+}",2f2cd61b606953b4
+ECHO_0140,75f2311bc955c910,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":60,""reflux_grade"":""trace_mild"",""rhythm"":1,""evidence"":""右心腔内可见起搏器导线回声；二尖瓣、三尖瓣口见轻度返流""}",af767fb85954327e
+ECHO_0284,453fb7e19acb29e9,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房大小约38.1mm，余房室大小正常，...主动脉瓣口见中度返流""
+}",eba9565c8e6ecbd7
+ECHO_0056,97b4e68920e3b7e6,"{""label"":""abnormal"",""lvh"":1,""la_dilate"":1,""ef"":63,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""室间隔厚度：13mm， 左室后壁厚度：12mm，左房内径约40mm""}",d232306f97c365c3
+ECHO_0173,18ba51f444f5b867,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 62,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左室内径：48mm，室间隔厚度（IVS）：12mm ， 左室后壁（LVPW）：11mm；左房轻度增大；射血分数（EF）：62%；CDFI:二、三尖瓣口见少量返流，主动脉瓣口见轻度返流""
+}",fae7c7504b2b1623
+ECHO_0238,1553381c13c13055,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 1,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；可见早搏；CDFI:三尖瓣口见轻度返流""
+}",846a6fd73a2d1ece
+ECHO_0171,7dfc1340a824ab77,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见轻度返流，三尖瓣口见中度返流，返流面积约7平方厘米""
+}",54fb92f9a7f2bfd8
+ECHO_0246,f879cb12994212ae,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""CDFI:房、室间隔未见过隔血流，二尖瓣口见轻度返流、三尖瓣口见中度返流，余瓣口未见明显返流。""}",ab1eec77b36cc919
+ECHO_0130,8ce02c937163ed61,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":69,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""二尖瓣口见中度偏心性返流，返流面积约4.3平方厘米""}",8a77f10b85094f02
+ECHO_0039,e834030eca59fb24,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 52,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约50mm，二尖瓣口见轻-中度返流，三尖瓣口见返流""
+}",4d7b21130ddcb0a9
+ECHO_0203,e55fb914ac2b2de8,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流""}",12e9616bc013e6a4
+ECHO_0300,7518ce31133204eb,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见中度返流，返流面积约8平方厘米""}",b713184cdcf020a8
+ECHO_0185,4be144f52bc945dc,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 60,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径：41mm，二尖瓣、三尖瓣口见轻度返流，主动脉瓣口见中度返流""
+}",3eb9bf25000b9870
+ECHO_0113,91eb843dfe43bc14,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 80,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左室壁增厚，以心尖部为著，厚约2.1cm""
+}",43052b8cfd46f70a
+ECHO_0174,4aa75e42ac8fee72,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 1,
+  ""evidence"": ""可见早搏。""
+}",3e7ca902bd7053dd
+ECHO_0118,620eb0fb6e428bc1,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣、主动脉瓣口见轻度返流，二尖瓣口见中度返流""
+}",003a12d0b426b84c
+ECHO_0282,cd83004787a84703,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 1,
+  ""evidence"": ""左房前后径约40mm，心律不齐。二尖瓣返流面积约3.4平方厘米，三尖瓣口见轻度返流""
+}",286ffae8cdbfec39
+ECHO_0276,1c8fdd6fed154808,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣可见中度返流，二尖瓣、三尖瓣口见轻度返流""
+}",7ce9f5265d395455
+ECHO_0287,d4c828bc566c4bde,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径约42mm，主动脉瓣口见中度返流""
+}",dad6876700dfa9df
+ECHO_0182,7002926df598132a,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见轻度返流，三尖瓣口见中度返流""
+}",56de7341c208354a
+ECHO_0184,6b232c3eea165f20,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":72,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""三尖瓣口见中度返流，缩流颈约5.3mm，返流速度约216cm/s""}",8c5980737f9234a5
+ECHO_0003,3971eefc75bd643b,"{""label"":""abnormal"",""lvh"":0,""la_dilate"":0,""ef"":42,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""射血分数（EF）：42%\n室间隔中下段前壁及前间壁心肌变薄，回声偏强，运动呈低动力状态\n二尖瓣口见少量返流""}",98d04c3e36a73889
+ECHO_0116,fc640216a577ffe8,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 71,
+  ""reflux_grade"": ""moderate_severe"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约39mm，余各房室大小正常；主动脉瓣口见中度返流""
+}",6bcb977b6360965e
+ECHO_0149,94a818f57a7381e9,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""moderate"",""rhythm"":0,""evidence"":""主动脉瓣口见中度返流，二尖瓣口见轻度返流""}",c369126cebbea2ce
+ECHO_0183,61bbebc85c8d9a7d,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 57,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流，主动脉瓣口见中度返流""
+}",2139aed7a60aac9c
+ECHO_0121,8e7d35bf987eed84,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 0,
+  ""la_dilate"": 1,
+  ""ef"": 62,
+  ""reflux_grade"": ""moderate"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约40mm，主动脉瓣口见中度返流""
+}",764cbcdd9556bd40
+ECHO_0229,65c84a1daabbfa83,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房内径约39mm，余房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣轻度返流、主动脉瓣口见轻-中度返流""
+}",ec8454e3cdb06b86
+ECHO_0375,7134523b0e1356b7,"{
+  ""label"": ""normal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔厚度：11mm，左室后壁厚度：11mm；CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""
+}",acce0970b6f8be30
+ECHO_0320,372c303303926533,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":78,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",88e0c674963616cc
+ECHO_0419,57c67ab42dc1c065,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":69,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",2ddc27b79e20fefc
+ECHO_0380,a45dd4fddd8cfdfc,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",d5950245a35e55c9
+ECHO_0378,51593f6dc915cf55,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":76,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",9304c061e0abe26c
+ECHO_0333,bb6a710a16180a65,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0e293ffef8685ac5
+ECHO_0366,6c999fd3455b059a,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0e293ffef8685ac5
+ECHO_0442,daf9468340a2da95,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",4d968f99e9de84a6
+ECHO_0370,b73f8851eaa1abb0,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",d5950245a35e55c9
+ECHO_0384,7aba87f3af8f2239,"{""label"":""abnormal"",""lvh"":1,""la_dilate"":0,""ef"":73,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""室间隔厚度：12.3mm，左室后壁厚度：12.1mm""}",3065db4850ddde55
+ECHO_0411,0aea3831fd6e364d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f9e18e6789d1d607
+ECHO_0313,0ca4d4bdc22ea0ff,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",e061e7f36be49110
+ECHO_0338,9db90cd082e58f1f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":74,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",17d3b66b76fd1d26
+ECHO_0310,37a8bb3afaf42605,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":60,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",1e2dc8e61f728ae0
+ECHO_0321,9c7637040a62c8f3,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",9eea55e6570adc82
+ECHO_0358,02683978b79c1149,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":74,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",17d3b66b76fd1d26
+ECHO_0438,a0c011061968845d,"{""label"":""unreadable"",""lvh"":null,""la_dilate"":null,""ef"":null,""reflux_grade"":null,""rhythm"":null,""evidence"":null}",3d27a3cae0be3521
+ECHO_0371,14a81590723c7f46,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",4d968f99e9de84a6
+ECHO_0357,7d1020fa7391850d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":77,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",189db6d779814b3c
+ECHO_0433,fad09977a6fdfbc4,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常,搏动幅度正常,呈逆向运动，房室间隔连续完整，运动协调。各瓣膜显示清晰，启闭自如，主、肺动脉内径及位置关系正常。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f9d41aab9e8b6301
+ECHO_0331,217740676e822a31,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，搏动幅度正常，呈逆向运动，房室间隔连续完整，运动协调。二尖瓣前后叶逆向运动，曲线呈双峰。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",242f208d45ea42ed
+ECHO_0425,b72b17de2a62b49f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，搏动幅度正常，呈逆向运动，房室间隔连续完整，运动协调。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",965ded568bff142e
+ECHO_0328,a0c011061968845d,"{""label"":""unreadable"",""lvh"":null,""la_dilate"":null,""ef"":null,""reflux_grade"":null,""rhythm"":null,""evidence"":null}",3d27a3cae0be3521
+ECHO_0429,6b47d97312636f17,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":83,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",c57169fb47279c44
+ECHO_0430,f493a0a5c2ef28b2,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",20f2b64576ea181c
+ECHO_0446,ae144569e280d4b4,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",e061e7f36be49110
+ECHO_0412,367fd269012e2b10,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f9e18e6789d1d607
+ECHO_0403,e944fdff71db316f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",20f2b64576ea181c
+ECHO_0347,e939abc0efe4a849,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",ca2b173c73c69c0a
+ECHO_0332,1ce3b14efa8e45bd,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",21a778a80af0d429
+ECHO_0324,4a1c40b30c956ccb,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""射血分数（EF）：66%\n各房室大小正常，室间隔与左心室后壁厚度正常\nCDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",b559b07c54c9472d
+ECHO_0317,1f7f47b60e343bc0,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",6d80fb0546a1c89b
+ECHO_0367,4abd98300144abe8,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f9e18e6789d1d607
+ECHO_0312,a0113caa83787cb6,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":59,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",fa60ac1b4034e6c8
+ECHO_0344,2b451a7b7637661f,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣前叶冗长，收缩期瓣尖脱入左房，距瓣环约5mm，致关闭不全。；CDFI:房、室间隔未见过隔血流，收缩期可见二尖瓣偏心返流血流，沿左房外侧壁走行，余各瓣口未见明显返流。""}",18d576e42d6fa45e
+ECHO_0407,6b94af42d4763f29,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":74,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",17d3b66b76fd1d26
+ECHO_0353,b933cc3d53c6c10e,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",d5950245a35e55c9
+ECHO_0329,4624ff35240f0f4e,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",48c97d9ebef3fa45
+ECHO_0305,4b6d8dd99bac7fcd,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":74,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",17d3b66b76fd1d26
+ECHO_0334,2175ac8c8b048b3e,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":69,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",2ddc27b79e20fefc
+ECHO_0422,3d9fefeb678ec7f8,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":72,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f212ecf51860f936
+ECHO_0387,f98047501227e3b6,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":72,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f212ecf51860f936
+ECHO_0388,8e766902241ef11d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":63,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",8426b02f08428860
+ECHO_0318,bcd7776f3f91b763,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",20f2b64576ea181c
+ECHO_0311,89e418e4bee24032,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",4d968f99e9de84a6
+ECHO_0383,f8fd03476ee3a6f8,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",20f2b64576ea181c
+ECHO_0434,26c9942681a25fae,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":60,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",1e2dc8e61f728ae0
+ECHO_0444,a62a56ac69988a41,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，搏动幅度正常，呈逆向运动，房室间隔连续完整，运动协调。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",cb6c804386f24519
+ECHO_0377,1da09cfaf9f0935d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":76,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",9304c061e0abe26c
+ECHO_0410,46ef81cd2defcf7f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",6d80fb0546a1c89b
+ECHO_0397,808ed0e1804ebe0a,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，搏动幅度正常，呈逆向运动，房室间隔连续完整，运动协调。各瓣膜显示清晰，启闭自如，主、肺动脉内径及位置关系正常。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",8d052b30f84ba476
+ECHO_0406,aef7319fffd8b908,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0e293ffef8685ac5
+ECHO_0368,57dc081c1daf855e,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0e293ffef8685ac5
+ECHO_0301,0d7b1bbff8511a32,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":72,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f212ecf51860f936
+ECHO_0443,8dfb750ffcf1d854,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，搏动幅度正常，呈逆向运动，房室间隔连续完整，运动协调。各瓣膜显示清晰，启闭自如，主、肺动脉内径及位置关系正常。CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0704416535187e72
+ECHO_0369,3d8bc2f14c6bff15,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",6d80fb0546a1c89b
+ECHO_0330,d0d9ebb19079430a,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":69,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... 各瓣膜显示清晰，启闭自如，主、肺动脉内径及位置关系正常。 CDFI: 房、室间隔未见过隔血流，各瓣口未见明显返流。""}",171c21692c776980
+ECHO_0342,a90a5eeca305bb65,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",4d968f99e9de84a6
+ECHO_0346,2f68bbd6a14011e1,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":63,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",ef5244461b38e5ce
+ECHO_0362,85076579fecebb3f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",0e293ffef8685ac5
+ECHO_0424,dee9be4fb72fcb05,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",ca2b173c73c69c0a
+ECHO_0326,03de57e4773f7c2d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":73,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",d5d5722aa5427c63
+ECHO_0327,052db19c4bf3e5de,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，... CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",17b6995c6e788d11
+ECHO_0325,06154fa41f680efe,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":66,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",4d968f99e9de84a6
+ECHO_0395,1d7d4b72ca77d459,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",e061e7f36be49110
+ECHO_0341,725810f8793b7da4,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：14mm， 左室后壁厚度：13mm""
+}",799df426f49475c5
+ECHO_0396,f9456847d17f9a9c,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":58,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",76076dce004f7564
+ECHO_0440,0475e2e1dbbcaee1,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",f9e18e6789d1d607
+ECHO_0349,457beee063d14962,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",ca2b173c73c69c0a
+ECHO_0398,2b48c9bf79bd9ea6,"{
+  ""label"": ""normal"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""none"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，房室间隔连续完整，运动协调。CDFI:房、室间隔未见过隔血流，二、三、主动脉瓣口未见明显返流。""
+}",521478774b618bae
+ECHO_0414,68a10a78c932eb02,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",e061e7f36be49110
+ECHO_0335,e81fce38a82bef6c,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",e061e7f36be49110
+ECHO_0400,4882db2388e5c14d,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":70,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",ca2b173c73c69c0a
+ECHO_0447,d2fa64bf52bfe715,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":64,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",9eea55e6570adc82
+ECHO_0364,9fb8e6e04bbb218f,"{""label"":""normal"",""lvh"":0,""la_dilate"":0,""ef"":73,""reflux_grade"":""none"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常，...CDFI:房、室间隔未见过隔血流，各瓣口未见明显返流。""}",d5d5722aa5427c63
+ECHO_0579,1844c9f5b3fdd630,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 60,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见轻度返流，余瓣口未见明显返流。""
+}",8192ca07ee7c05aa
+ECHO_0504,823cefa52e418d68,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 79,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见少量返流""
+}",dfaf2c07ca095f08
+ECHO_0592,04d5111f14dea331,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；CDFI:房、室间隔未见过隔血流，二尖瓣、三尖瓣、主动脉瓣口见轻度返流。""
+}",71a87560dc85c403
+ECHO_0471,b0326ddd6e8681bc,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 72,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",d5a41ae121733ee4
+ECHO_0558,bbcd4168bbfca3ef,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣、主动脉瓣口见轻度返流，余瓣口未见明显返流。""
+}",37766c105b766f37
+ECHO_0463,eeb66ce89a04cdfa,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、主动脉瓣口见少量返流、三尖瓣口见轻度返流""
+}",a5836ce74212ed20
+ECHO_0529,7411b24dd50c0808,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣、三尖瓣口见少量返流。""
+}",9d33a0bbff7da721
+ECHO_0483,672d798fb458a41a,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见少量返流""
+}",0be1c3e357ded19f
+ECHO_0535,6f793d598fa27d66,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：69%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",6100450c0ab59fd1
+ECHO_0460,c2d63114021a0d0f,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 72,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：12mm，左室后壁厚度：11mm；主动脉瓣口见轻度返流""
+}",a1dec00ed2c22ef5
+ECHO_0478,73d70155bd9b7f74,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",1a77090ec1a50075
+ECHO_0550,057cb298ba590299,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见少量返流""
+}",a083444f86edc820
+ECHO_0597,a082f0ddf2b6bb80,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：63%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",f749763f08291ddc
+ECHO_0520,f50968ee5e24d707,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":74,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣、三尖瓣、主动脉瓣口见少量返流""}",31fd38d0a77c3113
+ECHO_0588,a470c6f0e5fddbb6,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""二、三尖瓣口见轻度返流。余各瓣口未见明显返流。""
+}",e914bd5c8c4f4f18
+ECHO_0519,a73bc268889a3749,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 58,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",37593d94cdbfc16c
+ECHO_0469,b3f7b5f9db90bfa5,"{
+""label"": ""normal_variant"",
+""lvh"": 0,
+""la_dilate"": 0,
+""ef"": 62,
+""reflux_grade"": ""trace_mild"",
+""rhythm"": 0,
+""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：62%；CDFI:二尖瓣、三尖瓣、主动脉瓣口见少量返流""
+}",b1e8af421854bbae
+ECHO_0522,5d9f5d69296b7af7,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 77,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：77%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",6df909e61a3f0901
+ECHO_0578,14ae92195a7fe2d2,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":67,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""三尖瓣口见轻度返流""}",977f6346a9bbee9a
+ECHO_0482,b30dc7c08246c360,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""肺动脉瓣口见轻度返流""
+}",da602de7fb89de0d
+ECHO_0481,716ba18aa95a174d,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":82,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""三尖瓣口见轻度返流""}",1add3d1e481975d5
+ECHO_0559,6f4f12f27f4222d0,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 70,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：70%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",4897b2e76204e4b7
+ECHO_0488,9e937022160c8572,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""主动脉瓣口见轻度返流""
+}",f911d23e0f317752
+ECHO_0572,11d19d8a1ecb0e10,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：66%；CDFI:二尖瓣口见少量返流""
+}",ab69708cd3483b94
+ECHO_0508,970c6dfb553d59f9,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣、主动脉瓣口见轻度返流""}",ac1dcce6814e0474
+ECHO_0474,58e30e980a1eed95,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 74,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：74%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",69adba6c58ff19c3
+ECHO_0517,682250001e1e028c,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：13mm， 左室后壁厚度：12mm；主动脉瓣口见轻度返流""
+}",55e046e9dfe9aacd
+ECHO_0587,108a4444391f053a,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣、主动脉瓣口见轻度返流""
+}",25fea0a414d57fc9
+ECHO_0536,6cd78fd6f8d293ff,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 71,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",fcf7d04d0ac2739d
+ECHO_0462,5248934045fc08df,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：63%；CDFI:二尖瓣口见少量返流""
+}",80cbd4c89cbbdce4
+ECHO_0589,47138db91a433e0e,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣、主动脉瓣口见轻度返流""
+}",fb5436ad0664020c
+ECHO_0498,7d31ce6aaac7f72b,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",e34162648aec65c0
+ECHO_0573,32d48aba057fb0c9,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣、主动脉瓣口见轻度返流""
+}",bf87b83ecb9327fd
+ECHO_0479,fba6cf83d3c1b91b,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":62,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣、三尖瓣口见轻度返流""}",d11dc411a6a9ca4c
+ECHO_0455,33ffbf302eb54783,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",0721f590ba41d0aa
+ECHO_0581,a59a3e0057060db8,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""二尖瓣、主动脉瓣口见轻度返流""}",ac1dcce6814e0474
+ECHO_0583,0cd6fdfaa02c1148,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 72,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：72%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",f0b2704899128280
+ECHO_0599,6023ffe64b844bd3,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 60,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：60%；CDFI:二、三尖瓣、主动脉瓣口见少量返流""
+}",ccf2bba97558ad73
+ECHO_0495,209217d4c25e06d3,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""主动脉瓣口见少量返流""}",cfc3d39be968b4bb
+ECHO_0467,c0e1745f48815409,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：63%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",f749763f08291ddc
+ECHO_0461,24f31f7f07406af4,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：67%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",9c173ae1ec2beb07
+ECHO_0569,1ca559d1337ddf46,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 74,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：74%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",69adba6c58ff19c3
+ECHO_0539,1753e5feb1805d59,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：71%；CDFI:二尖瓣、三尖瓣、主动脉瓣口见轻度返流""}",7d08acee66483ca4
+ECHO_0593,ca2342e24df3b386,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：66%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",0efb6e6e0e742d55
+ECHO_0509,53ec28de103c806f,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",8f71755b1a841ad8
+ECHO_0547,cae9e7cefa5f2a90,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 61,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：61%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",895f49d981818e73
+ECHO_0594,ae1cc41b2e83f5d2,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；CDFI:二尖瓣口见少量返流""
+}",b87ae59107e8480b
+ECHO_0562,2bafaeb029177c1a,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":61,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""三尖瓣口见轻度返流""}",34e6f04bbe5090e4
+ECHO_0451,e8739b21de13ba76,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""三尖瓣口见轻度返流""}",4ad8617d1010d66c
+ECHO_0526,50d12080dedaea98,"{
+  ""label"": ""abnormal"",
+  ""lvh"": 1,
+  ""la_dilate"": 1,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""左房前后径约40mm，室间隔厚度：12.2mm""
+}",e02a16a9e416e77e
+ECHO_0518,89efb1a2f6a345bc,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 1,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""室间隔厚度：12.2mm，左房大小正常；射血分数（EF）：67%；二尖瓣口见轻度返流""
+}",a85d37c7eb4b7f96
+ECHO_0480,9cd0cbde73e70d2c,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣口见轻度返流""
+}",e153d7e3f2e12ad7
+ECHO_0492,47ee303b67546bc1,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 70,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：70%；CDFI:二尖瓣、三尖瓣、主动脉瓣口见少量返流。""
+}",458b894ab8be592e
+ECHO_0513,e559f9a40cea8ca6,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",b9922d7044660918
+ECHO_0476,72d966fc599ec4dc,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 71,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：71%；CDFI:二尖瓣、三尖瓣、肺动脉瓣口见轻度返流""
+}",a850875fbdab516f
+ECHO_0477,cfdbd7ef4b6ee4d1,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣口见少量返流""
+}",73926f5bc8f62b53
+ECHO_0475,461ed9b3f8619f9f,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：68%；CDFI:二尖瓣口见轻度返流""
+}",8f615150c6995b22
+ECHO_0571,e33e6dbbbd7a0061,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":68,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""三尖瓣、主动脉瓣口见轻度返流""}",367f0f3debaecae7
+ECHO_0538,2d33c88f859985b5,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；二尖瓣、三尖瓣口见轻度返流""
+}",343b301be946c289
+ECHO_0596,60d8d84dd83754e9,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 65,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",1a77090ec1a50075
+ECHO_0497,ab2efc9d77375688,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":71,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""CDFI:房、室间隔未见过隔血流，三尖瓣口见轻度返流，余瓣口未见明显返流。""}",82589047d94016dc
+ECHO_0466,d1afc543652d0595,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""二尖瓣口见少量返流""
+}",ab4a98fec106e24a
+ECHO_0555,7ce408608faa951f,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 62,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""三尖瓣口见轻度返流""
+}",8e7f4cea34637445
+ECHO_0491,e45e72dad76fc02a,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：64%；CDFI:二尖瓣口见轻度返流""
+}",32374b889b75dc07
+ECHO_0521,8a531c1fa24c5d14,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":63,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""各房室大小正常，室间隔与左心室后壁厚度正常；CDFI:二尖瓣、三尖瓣、主动脉瓣口见轻度返流""}",5cf80e5b15696d74
+ECHO_0568,deb8c9b312b70126,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 67,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：67%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",9c173ae1ec2beb07
+ECHO_0500,7698bd0ab96529c4,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：64%；CDFI:二尖瓣、三尖瓣口见轻度返流""
+}",8feae053c6e64231
+ECHO_0548,b614b31f04dc48ef,"{""label"":""normal_variant"",""lvh"":0,""la_dilate"":0,""ef"":65,""reflux_grade"":""trace_mild"",""rhythm"":0,""evidence"":""CDFI:房、室间隔未见过隔血流，三尖瓣口见轻度返流，余瓣口未见明显返流。""}",0cb2b4e6a5e07ded
+ECHO_0564,3e7c158014ecf58b,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 68,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：68%；二尖瓣、三尖瓣口见轻度返流""
+}",015f247710cd6212
+ECHO_0485,1ae781313b4ff810,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 74,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：74%；二尖瓣、三尖瓣口见轻度返流""
+}",7c73be98c18991c0
+ECHO_0540,7cbdf45ef2bf043b,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 64,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：64%；CDFI:二尖瓣、三尖瓣口见少量返流""
+}",a222fea5af66b47a
+ECHO_0552,94496c7d2c58dc23,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 69,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：69%；CDFI:二尖瓣、主动脉瓣口见轻度返流""
+}",d3e3bcf4b8fcc9a1
+ECHO_0515,f5e0aa8a271e7463,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 70,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；射血分数（EF）：70%；CDFI:二尖瓣、三尖瓣口见少量返流""
+}",110fd3d612cc2192
+ECHO_0580,afac5a25a9cb90db,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 66,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；CDFI:二尖瓣、三尖瓣口见少量返流。""
+}",58b0701d51365d44
+ECHO_0531,c44199f63bace1f0,"{
+  ""label"": ""normal_variant"",
+  ""lvh"": 0,
+  ""la_dilate"": 0,
+  ""ef"": 63,
+  ""reflux_grade"": ""trace_mild"",
+  ""rhythm"": 0,
+  ""evidence"": ""各房室大小正常，室间隔与左心室后壁厚度正常；CDFI:二尖瓣、三尖瓣口见轻度返流。""
+}",5f70c1d1286276f9

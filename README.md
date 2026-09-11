@@ -6,6 +6,8 @@ This repository contains the analysis code, the double-annotated gold-standard b
 
 Pre-registration: OSF `10.17605/OSF.IO/KUMVE` (sampling plan, acceptance gates, extractor comparison and falsification rule; registration timing statement included).
 
+**A file-by-file index with manuscript cross-references (every table/figure/number → its source artefact) is in [INDEX.md](INDEX.md).**
+
 ## Repository layout
 
 ```

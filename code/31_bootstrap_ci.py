@@ -17,7 +17,7 @@ import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, "results")
-WB = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
+WB = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
 B = 1000
 SEED = 42
 
@@ -55,33 +55,25 @@ def main():
     m29 = load_mod("29_ecg_acceptance.py", "m29")
     m28 = load_mod("28_peryear_fig4.py", "m28")
     book = pd.read_excel(WB, sheet_name=None, dtype=str)
-    arb1 = pd.read_csv(os.path.join(RES, "arbitration_decisions.csv"), dtype=str)
-    amap = {(r["sample_id"], r["variable"]): r["final"] for _, r in arb1.iterrows()}
     rows = []
 
-    # ---------- echo 7变量 × 3模型 ----------
-    e = book["ECHO_PG"].set_index("sample_id")
-    r2 = pd.read_csv(os.path.join(RES, "round2_arbitration_decisions_round2.csv"), dtype=str)
-    for _, r in r2.iterrows():
-        amap[(r["sample_id"], r["variable"])] = r["decision"]
+    # ---------- echo 7变量 × 3模型（与 23_m2d_acceptance 完全同口径：方案B推导 + round2 终值） ----------
+    m23 = load_mod("23_m2d_acceptance.py", "m23")
+    g23 = m23.gold_frame()
     ECHO_VARS = ["echo_lvh", "echo_la_dilate", "echo_normal", "echo_variant",
                  "ef_abnormal", "reflux_grade", "echo_unreadable"]
     acc = pd.read_csv(os.path.join(RES, "m2d_acceptance.csv"))
-    for model, fn in m28.ECHO_LLMS.items():
+    for model, fn in m23.MODELS.items():
         d = pd.read_csv(os.path.join(ROOT, "data", fn), encoding="utf-8-sig", dtype=str)
-        pr = {r.sample_id: m28.parse(r.llm_raw) for r in d.itertuples(index=False)}
+        mf, _ = m23.model_fields(d)
+        joined = g23.join(mf, how="inner", lsuffix="_x", rsuffix="_y")
         for var in ECHO_VARS:
-            gcol = "A1_" + var
-            a, b = [], []
-            for sid in d.sample_id:
-                r = e.loc[sid]
-                a1, a2 = r["A1_" + var], r["A2_" + var]
-                gv = a1 if (pd.notna(a1) and a1 == a2) else amap.get((sid, var), "")
-                p = pr.get(sid)
-                if str(gv) == "" or p is None:
-                    continue
-                a.append(str(gv))
-                b.append(str(p.get(var)))
+            a_col, m_col = var + "_x", var + "_y"
+            sub = joined[(joined[a_col].astype(str).str.strip() != "")
+                         & (joined[m_col].astype(str).str.strip() != "")]
+            if len(sub) < 20:
+                continue
+            a, b = sub[a_col].tolist(), sub[m_col].tolist()
             k = kappa(a, b)
             lo, hi = boot_ci(a, b)
             pt = acc[(acc.model == model) & (acc.variable == var)]

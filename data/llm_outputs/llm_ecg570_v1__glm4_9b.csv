@@ -1,0 +1,1795 @@
+﻿sample_id,input_hash,llm_raw,output_hash
+ECG_0001,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0002,dc79eabff429e74f,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐, T波改变""}
+```",7b453a502004c7a2
+ECG_0003,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0004,d981effa9dd63913,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房性早搏""}
+```",9dbb8a8ce908a8c2
+ECG_0005,66456fd6127a159e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动不齐""}
+```",76c62e3c62c39ad3
+ECG_0006,ef19e2cb0e4e5a81,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓，左心室高电压""}
+```",2903955f0388118a
+ECG_0007,31c46c931ee5b38a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0008,77f4b1362843033a,"```json
+{""ecg_normal"": 1, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，电轴左偏(电轴 度)""}
+```",abf7f15c7e5859d4
+ECG_0009,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0010,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0011,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0012,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0013,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0014,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0015,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0016,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0017,578e8f4f42376a12,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""部分导联T波改变:TⅠ、aVL、Ⅱ、Ⅲ、aVF、V1、V2、V3、V4、V5、V6低平、双向、双峰或切迹、倒置,TV1>TV5、V6""}
+```",bfcd798d9a4b8fde
+ECG_0018,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0019,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0020,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0021,0c0cbaba68d20ac9,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""频发房性早搏""}
+```",9bfc9e1de24ec8d3
+ECG_0022,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0023,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0024,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0025,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0026,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0027,baa7c6ecdcecdf6c,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0028,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0029,25b408fddb070229,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左心室高电压""}
+```",2d1dc83115fcbc97
+ECG_0030,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0031,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0032,a8ce5064f1694e0c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""室性早搏""}
+```",11804befb090708d
+ECG_0033,5379803a54391110,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓, 偶发房性早搏, 一度房室传导阻滞""}
+```",7fd4b00a68c82c70
+ECG_0034,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0035,24fd929372e60e05,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0036,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0037,0c0cbaba68d20ac9,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""频发房性早搏""}
+```",9bfc9e1de24ec8d3
+ECG_0038,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0039,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0040,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0041,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0042,a8ce5064f1694e0c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""室性早搏""}
+```",11804befb090708d
+ECG_0043,77f4b1362843033a,"```json
+{""ecg_normal"": 1, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，电轴左偏(电轴 度)""}
+```",abf7f15c7e5859d4
+ECG_0044,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0045,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0046,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0047,443c6757b2b366db,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左前分支传导阻滞，电轴左偏""}
+```",b4cd4d42510bb6e4
+ECG_0048,a8ce5064f1694e0c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""室性早搏""}
+```",11804befb090708d
+ECG_0049,6302771eb72b26d5,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""部分导联ST段改变：STⅠ、aVL、Ⅱ、Ⅲ、aVF、V1、V2、V3、V4、V5、V6压低>0.05mv，电轴左偏(电轴 度)""}
+```",d1bf75832d4c103a
+ECG_0050,19b7cf8f74ee9613,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波改变""}
+```",ba922fea357c1be6
+ECG_0051,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0052,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0053,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0054,61045a8a0e203732,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""窦性心律 早期复极综合症""}
+```",017a384fc5ceb712
+ECG_0055,26b70aa0dac3ed49,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓 左室高电压""}
+```",4d5e68152b7b4250
+ECG_0056,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0057,f378c4e30f6df393,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律 左心室高电压""}
+```",33b1a6a62de1e586
+ECG_0058,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0059,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0060,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0061,124b74239dc2a2f7,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全性右束支阻滞合并左前分支阻滞""}
+```",c65a34e39681303b
+ECG_0062,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0063,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0064,76ed791c3803726d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，完全性右束支阻滞，一度房室传导阻滞""}
+```",7a1ac81ac504a379
+ECG_0065,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0066,78651907c4ac4ae5,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, T波改变""}
+```",8fb2a07c02e304aa
+ECG_0067,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0068,19b7cf8f74ee9613,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波改变""}
+```",ba922fea357c1be6
+ECG_0069,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0070,6f670b817e9def60,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全性右束支阻滞""}
+```",6cf51732bc6ca00a
+ECG_0071,19b7cf8f74ee9613,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波改变""}
+```",ba922fea357c1be6
+ECG_0072,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0073,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0074,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0075,0c65edd0a9d5146f,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐, 左心室高电压""}
+```",258095892d884076
+ECG_0076,5b14062271f78cfa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓,房性早搏""}
+```",9965abc1c46bf523
+ECG_0077,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0078,87c8d44659d6bc27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
+ECG_0079,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0080,a8ce5064f1694e0c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""室性早搏""}
+```",11804befb090708d
+ECG_0081,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0082,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0083,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0084,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0085,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0086,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0087,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0088,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0089,2f8e61ef17525a10,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，肢导联低电压""}
+```",3083cf9954b9325d
+ECG_0090,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0091,25b408fddb070229,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左心室高电压""}
+```",2d1dc83115fcbc97
+ECG_0092,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0093,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0094,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0095,37c74e75dc653f3f,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""短阵心房颤动，左心室高电压""}
+```",6187333774d1720e
+ECG_0096,c4970bf01889cc29,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 T波改变""}
+```",826ac5a7dbd58e5a
+ECG_0097,87c8d44659d6bc27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
+ECG_0098,2f8e61ef17525a10,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，肢导联低电压""}
+```",3083cf9954b9325d
+ECG_0099,e903ce46cbbcdc3c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""偶发室性早搏""}
+```",5861c6a0a2367f99
+ECG_0100,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0101,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0102,bc6e8e56236d1077,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房性早搏""}
+```",9dbb8a8ce908a8c2
+ECG_0103,87c8d44659d6bc27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
+ECG_0104,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0105,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0106,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0107,deeacb2c41ad0463,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房性早搏, T波改变""}
+```",6b779859ad3a9f24
+ECG_0108,0c0cbaba68d20ac9,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""频发房性早搏""}
+```",9bfc9e1de24ec8d3
+ECG_0109,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0110,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0111,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0112,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0113,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0114,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0115,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0116,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0117,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0118,19b7cf8f74ee9613,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波改变""}
+```",ba922fea357c1be6
+ECG_0119,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0120,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0121,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0122,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0123,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0124,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0125,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0126,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0127,45afd22d677337e9,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支阻滞""}
+```",dc2d2b4339a06da0
+ECG_0128,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0129,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0130,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0131,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0132,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0133,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0134,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0135,3ba81ff94a3101e4,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，完全性右束支阻滞""}
+```",5965e0e7510aecd3
+ECG_0136,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0137,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0138,ee478cf9e5855b51,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过速""}
+```",e58178634ed6bdba
+ECG_0139,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0140,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0141,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0142,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0143,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0144,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0145,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0146,f271eb9fc58658a4,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":1,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""下壁异常Q波,极度顺钟向转位""}
+```",487d220b4833f23b
+ECG_0147,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0148,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0149,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0150,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0151,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0152,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0153,2759b822193228d5,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""不完全性右束支阻滞，肢导联低电压""}
+```",527380962a1f8a15
+ECG_0154,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0155,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0156,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0157,d02cc5ac635d9a89,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓,偶发房性早搏""}
+```",dce36c758f1cb6b5
+ECG_0158,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0159,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0160,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0161,9bdc00bd17408815,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓, QRS电轴左偏""}
+```",3815453f5f24ff45
+ECG_0162,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0163,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0164,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0165,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0166,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0167,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0168,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0169,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0170,a2ef2dcdf778f7f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，部分导联ST段改变""}
+```",92c87bf24a0f160f
+ECG_0171,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0172,c7f4ff998b2f27f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""部分导联T波改变""}
+```",dd4f6b562d5c3669
+ECG_0173,5d3ea70c5a9c19dc,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""偶发房性早搏""}
+```",cdb6f50a9feb91b4
+ECG_0174,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0175,1831d2e8e01ca90c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 左心室电压高, ST-T改变""}
+```",78a543ca10b65eca
+ECG_0176,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0177,c7f4ff998b2f27f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""部分导联T波改变""}
+```",dd4f6b562d5c3669
+ECG_0178,956e4dc47db85c0e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0179,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0180,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0181,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0182,63feaeb25dee3587,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支阻滞，左心室高电压""}
+```",b0af4d008318df8b
+ECG_0183,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0184,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0185,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0186,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0187,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0188,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0189,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0190,080dbb0e4582a723,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""频发房性早搏""}
+```",9bfc9e1de24ec8d3
+ECG_0191,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0192,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0193,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0194,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0195,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0196,25b408fddb070229,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左心室高电压""}
+```",2d1dc83115fcbc97
+ECG_0197,e09ca9ec3eb0fc56,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""T波改变（TV1>TV5）""}
+```",8e0acba4a0c62a9b
+ECG_0198,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0199,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0200,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0201,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0202,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0203,1ef3c25569c8cb0d,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，预激综合症(B型)""]}
+```",79aaa3b2a45ae845
+ECG_0204,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0205,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0206,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0207,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0208,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0209,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0210,5a7b2300d2d3ccb2,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全性右束支阻滞，左心室高电压""}
+```",dc36b1e89a11e2b6
+ECG_0211,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0212,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0213,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0214,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0215,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0216,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0217,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0218,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0219,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0220,dcb457213d3ec8c2,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""频发房性早搏""}
+```",ccc599f4868f704b
+ECG_0221,1ec9c9c8e17bbf17,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""快速型心房颤动伴室内差异性传导""}
+```",aaf89918a39adee5
+ECG_0222,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0223,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0224,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0225,19b7cf8f74ee9613,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波改变""}
+```",ba922fea357c1be6
+ECG_0226,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0227,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0228,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0229,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0230,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0231,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0232,8747c111faf8e6ea,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""偶发室性早搏，部分导联ST段改变""}
+```",d578c436972f0c33
+ECG_0233,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0234,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0235,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0236,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0237,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0238,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0239,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0240,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0241,7f21a2cda41519e5,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""未见明显异常""}
+```",eaadaba364fd1c78
+ECG_0242,e265c6e4beea81a3,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 电轴左偏-°""}
+```",0190175492e76142
+ECG_0243,dccf35ec917b50e3,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，胆囊结石""}
+```",6705ba08a6b2131a
+ECG_0244,33bc43fcf9a94dad,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
+```",0f0ce75e5cf24fdc
+ECG_0245,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0246,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0247,80a5d7f7f3c54393,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左肾囊肿8*5mm""}
+```",2ad395e693f8969e
+ECG_0248,afd39ebacd36f2f4,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平倒置、完全性右束支传导阻滞""}
+```",e75fd652d773424d
+ECG_0249,a474a65940aca14a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房室期前收缩""}
+```",bddbb969da1c12de
+ECG_0250,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0251,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0252,b8cbdf3f5680ba36,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、胆囊切除、膀胱不充盈，子宫附件无法看清。""}
+```",f06009d66b10513a
+ECG_0253,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0254,7ae315b27d973826,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝""}
+```",f007c21c7ce019fe
+ECG_0255,b520c249828ff84e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""轻度脂肪肝，左肾囊肿27*25mm，子宫不清。""}
+```",903cb22f5623018c
+ECG_0256,814dfa5b32dd4697,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""子宫不清""}
+```",837923f74b39d7dd
+ECG_0257,ec85e5ba2c3eaabd,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 1,
+  ""evidence"": ""脂肪肝、胆囊结石5*4mm、肝囊肿大小11*12mm、双肾多囊肾，囊肿右侧较大约55*53mm，左侧较大约50*49mm、老年性子宫""
+}
+```",4d009c43e14061bf
+ECG_0258,49a81400e11d67a3,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、肝囊肿13*10mm、左肾囊肿18*10mm""}
+```",279f904aa22aa7c2
+ECG_0259,144822380dcc24d7,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""血吸虫性肝病，脂肪肝，胆囊息肉5mm，脾稍大139*43mm""}
+```",2cb1b3d0ee436559
+ECG_0260,54980efaf738d847,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、左肾结石4*4mm、膀胱不充盈，子宫附件无法看清。""}
+```",eca2177afc7b6afe
+ECG_0261,c6071929566862c0,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""胆囊息肉2mm""}
+```",96acd8c949bf2d20
+ECG_0262,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0263,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0264,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0265,235ca39727135fc3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""左心室高电压""}
+```",d97d8b37a75ea888
+ECG_0266,33bc43fcf9a94dad,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
+```",0f0ce75e5cf24fdc
+ECG_0267,76764ba269b39799,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，左肾小囊肿，无尿不清。""}
+```",343dff14b34210c1
+ECG_0268,6266f9611c69543b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""轻度ST段抬高""}
+```",1dd249fa8dc614cd
+ECG_0269,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0270,1cec75e2ce1c4463,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，肝内稍高回声10*8mm。""}
+```",34f50068cd4b5029
+ECG_0271,98b689954bc8c8ea,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""肢体导联低电压""}
+```",057f77b7df9b01db
+ECG_0272,06ceb6bc6316dd64,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平、房性早搏偶发""}
+```",4e4b1f7f676b2995
+ECG_0273,33bc43fcf9a94dad,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
+```",0f0ce75e5cf24fdc
+ECG_0274,814dfa5b32dd4697,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""子宫不清""}
+```",837923f74b39d7dd
+ECG_0275,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0276,90489b0db18b2ad5,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""轻度脂肪肝，肝囊肿，子宫不清。""}
+```",08d77a185e6aa5a3
+ECG_0277,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0278,dcf38d0aaa54e5c9,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 1,
+  ""evidence"": ""胆囊息肉，胆囊壁胆固醇结晶""
+}
+```",2bb24f054668f278
+ECG_0279,6bf0590e2968449d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平双向""}
+```",7ea1b39fd2c27894
+ECG_0280,624a1f91314c8e4c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""右肾囊肿8*6mm""}
+```",53245dce92fdde86
+ECG_0281,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0282,a67d428edd2da060,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞、继发性ST-T改变、电轴右偏""}
+```",c58308fe680fb1ca
+ECG_0283,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0284,3102e6457e4c6c9c,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 1,
+  ""evidence"": ""脂肪肝、肝内钙化灶、左肾囊肿""
+}
+```",077de153a83840e0
+ECG_0285,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0286,4c41fa9194a62f5b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""I度房室传导阻滞""}
+```",62e9938fb39062b1
+ECG_0287,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0288,2f5bec638e66f147,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左室高电压""}
+```",bd773e627b79ab92
+ECG_0289,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0290,33bc43fcf9a94dad,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
+```",0f0ce75e5cf24fdc
+ECG_0291,98b689954bc8c8ea,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""肢体导联低电压""}
+```",057f77b7df9b01db
+ECG_0292,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0293,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0294,1222391d8d7b9b27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""胆囊切除""}
+```",ac38d815abefa0bc
+ECG_0295,e6a3c45e66a71afe,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平双向、左室高电压""}
+```",c9562b6a66dd69f0
+ECG_0296,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0297,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0298,235ca39727135fc3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""左心室高电压""}
+```",d97d8b37a75ea888
+ECG_0299,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0300,a08288bf97f27916,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""膀胱不充盈，子宫附件无法看清、脂肪肝、右肾囊肿6*6mm、双肾结石4*4mm。""}
+```",816a83205eb851ea
+ECG_0301,ee478cf9e5855b51,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过速""}
+```",e58178634ed6bdba
+ECG_0302,2ff23757bb961789,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 1, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""偶见插入性早搏""}
+```",73f175dbadd4a6c2
+ECG_0303,ac6fb5f8e0d6b0d1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""尿潜血+-(10)""}
+```",9f29714738930f1a
+ECG_0304,d785134bda3637ee,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，ST段改变""}
+```",c73584e8424c1d72
+ECG_0305,a254e010a3c39548,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0306,e9c2b03e9b5e434a,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""尿葡萄糖2+""}
+```",d1f8c099a573c833
+ECG_0307,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0308,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0309,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0310,3c9ee04f8510efd0,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0311,59d025b441afcdc1,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""尿蛋白3+(>3.0)；尿胆原+-(17)；尿酮体+-(0.5)。""}
+```",a21293515015bf56
+ECG_0312,d785134bda3637ee,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，ST段改变""}
+```",c73584e8424c1d72
+ECG_0313,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0314,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0315,b70f88b0019b5875,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""尿葡萄糖4+；尿潜血弱阳性""}
+```",716556578290a8db
+ECG_0316,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0317,1fb8b21c196b192b,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 1,
+  ""evidence"": ""尿潜血阳性(3+)；尿白细胞阳性(+)""
+}
+```",91f214597db524fb
+ECG_0318,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0319,712d2b97ab10caaa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""尿潜血弱阳性""}
+```",6a28e345e31874a9
+ECG_0320,594674167b43b778,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""尿潜血阳性(2+)；尿白细胞弱阳性""}
+```",a3850dc5bce1715d
+ECG_0321,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0322,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0323,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0324,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0325,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0326,fc430ddf5a8f4ce7,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""尿潜血阳性(3+)；尿蛋白弱阳性""}
+```",56ce8b4bd5e77ec9
+ECG_0327,14f37717bdbf4dba,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 0,
+  ""evidence"": """"
+}
+```",980c310b6051ff8f
+ECG_0328,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0329,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0330,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0331,5bd750eb25662ee2,"```json
+{""ecg_normal"": 1, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，T波高尖""}
+```",a1f716fc7486d56c
+ECG_0332,712d2b97ab10caaa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""尿潜血弱阳性""}
+```",6a28e345e31874a9
+ECG_0333,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0334,0bf658e324c5a2a0,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""亚硝酸盐阳性(2+); 尿潜血弱阳性; 尿白细胞阳性(2+)。""}
+```",c7adaff428030bfa
+ECG_0335,10adc57f6efde0a1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0336,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0337,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0338,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0339,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0340,a254e010a3c39548,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0341,77518a093e7fd80a,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律 二度Ⅱ型窦房阻滞 电轴左偏(电轴-32度)""}
+```",0a66f36596d2cc8b
+ECG_0342,a093fcf4fcfccc08,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""尿潜血3+(>200)；尿蛋白2+(1.0)""}
+```",b3997000bdbdc875
+ECG_0343,712d2b97ab10caaa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""尿潜血弱阳性""}
+```",6a28e345e31874a9
+ECG_0344,6addae4f0bfa384e,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左室高电压""}
+```",c0aa2e2b7291bb8e
+ECG_0345,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0346,e9c2b03e9b5e434a,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""尿葡萄糖2+""}
+```",d1f8c099a573c833
+ECG_0347,04aa62877a2dbb5c,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 1, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，图像质量差，建议复查""}
+```",c75f357ba5119536
+ECG_0348,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0349,0c7ca129d6583528,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0350,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0351,a254e010a3c39548,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0352,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0353,aa9c2abc03013e2d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓, 窦性心动不齐, ST-T改变, 胸导联低电压""}
+```",a0fba16bcee1f645
+ECG_0354,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0355,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0356,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0357,22f3d2c3f68fe833,"```json
+{
+  ""ecg_normal"": 0,
+  ""ecg_af"": 0,
+  ""ecg_pac_pvc"": 0,
+  ""ecg_stt"": 0,
+  ""ecg_avblock"": 0,
+  ""ecg_bbb"": 0,
+  ""ecg_rate"": 0,
+  ""ecg_srirr"": 0,
+  ""ecg_axis"": 0,
+  ""ecg_qwave_mi"": 0,
+  ""ecg_other"": 0,
+  ""ecg_unreadable"": 0,
+  ""evidence"": ""尿潜血1+""
+}
+```",3766a684e33f42ff
+ECG_0358,d5c17148767e2cf1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""尿潜血阳性(+)；尿白细胞阳性(3+)""}
+```",8d87c24458e85d3a
+ECG_0359,6a41d21be80679a9,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波改变""}
+```",0040d19e555f483b
+ECG_0360,10adc57f6efde0a1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0}
+```",b1ffb2e22763b2fe
+ECG_0361,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0362,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0363,aef95d443b55dbc1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""部分导联ST段改变，电轴左偏""}
+```",ba5b33ba1a48655a
+ECG_0364,fc07d885c93f3bea,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，正常心电图""}
+```",4af370c6a14013ae
+ECG_0365,d5d9308734a0b5f7,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 左心室高电压, ST-T改变""}
+```",a0e3ab16b1706de4
+ECG_0366,84b864c264874bec,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 1, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律""}
+```",98b984da15376f64
+ECG_0367,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0368,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0369,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0370,3b3698de03b134e8,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐, ST-T改变""}
+```",3ab29afec3cba18f
+ECG_0371,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0372,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0373,5812f9c4d1c0f1ca,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平""}
+```",dcd6324be61ad2fe
+ECG_0374,f72a17f5d8a35e3c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""非阵发性房室连接处心动过速, 原发性ST-T改变, 电轴左偏""}
+```",f52beecefaa80909
+ECG_0375,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0376,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0377,fb106e2ba83cfa88,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，电轴左偏(电轴-24度)，正常范围心电图""}
+```",68b2e0834e0a77f3
+ECG_0378,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0379,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0380,fc07d885c93f3bea,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，正常心电图""}
+```",4af370c6a14013ae
+ECG_0381,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0382,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0383,5d3ea70c5a9c19dc,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""偶发房性早搏""}
+```",cdb6f50a9feb91b4
+ECG_0384,fd107aec25836b31,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""右心室肥大""}
+```",efd392a5fcae7a4e
+ECG_0385,ce15d729c6af0328,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，ST-T改变""}
+```",dfad630c6d1ae265
+ECG_0386,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0387,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0388,fd30dd8c9a273e44,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""偶发房性早搏, ST-T改变""}
+```",d11c787f1e2fbd7c
+ECG_0389,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0390,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0391,271dd6cf098bf121,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""心电轴右偏""}
+```",dc1ee237c88fbfab
+ECG_0392,a2ef2dcdf778f7f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，部分导联ST段改变""}
+```",92c87bf24a0f160f
+ECG_0393,f88d815dcbe0a165,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全右束支传导阻滞""}
+```",b31c274c4200de21
+ECG_0394,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0395,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0396,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0397,0106e6c08234d2d7,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，提示左心室肥大，ST-T改变""}
+```",fb6d24009250877b
+ECG_0398,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0399,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0400,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0401,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0402,6929a7e7107b17cf,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""不完全性右束支阻滞""}
+```",942033ed0c567e15
+ECG_0403,fc07d885c93f3bea,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，正常心电图""}
+```",4af370c6a14013ae
+ECG_0404,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0405,2897c76628ceb40f,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 正常心电图""}
+```",b5785b5dd6686b29
+ECG_0406,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0407,268ea6ddb2cf3630,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓""}
+```",4c3f585f2fb301b5
+ECG_0408,0bae0e37e96d4b5e,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律 部分导联ST段改变""}
+```",58a35c7f69dcd328
+ECG_0409,d9f7739311765d29,"```json
+{""ecg_normal"": 1, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，电轴左偏""}
+```",056ae970bd7a54c6
+ECG_0410,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0411,7991b99e1d6ab91a,"```json
+{""ecg_normal"": 1, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，电轴左偏(电轴-23度)""}
+```",19a2bf890b981e4f
+ECG_0412,f003affb8f41ca8b,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 肢导联低电压""}
+```",1514ef34dba36fcd
+ECG_0413,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0414,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0415,8a98ec3f8e34374b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓, T波改变""}
+```",28fecb66dca3c541
+ECG_0416,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0417,a2ef2dcdf778f7f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，部分导联ST段改变""}
+```",92c87bf24a0f160f
+ECG_0418,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0419,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
+ECG_0420,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
+ECG_0421,3cffdfccc5952046,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0422,150d82624fc34efd,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动（快速型）, 部分导联ST段改变""}
+```",de4eef6b7cca66c0
+ECG_0423,ceb9131a3b1fda2d,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, T波改变, 电轴右偏""}
+```",85b294d3db68d327
+ECG_0424,2c9cec6ad70eee53,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动伴缓慢心室率，T波改变""}
+```",d19846ed6e2b1e3e
+ECG_0425,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0426,7d1e5c47fbc82e54,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""异位心律2、心房颤动""}
+```",546adf01829c8945
+ECG_0427,6ec7ab985101855b,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, ST段压低, T波改变""}
+```",de3b8dbf233bcbf1
+ECG_0428,ff9e07e62363b76c,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 完全性右束支阻滞""}
+```",0b77206a8dfe0fa2
+ECG_0429,6ec7ab985101855b,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, ST段压低, T波改变""}
+```",de3b8dbf233bcbf1
+ECG_0430,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0431,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0432,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0433,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0434,b3195b023efe19d7,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动可能""}
+```",decc142e404f73b0
+ECG_0435,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0436,fe9b9ec051710b28,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""缓慢室率房颤伴室内差异性传导，T波改变""}
+```",1791448025c09a0d
+ECG_0437,d33fc34283793ce9,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, ST-T改变""}
+```",d8c5e45f1eeca35d
+ECG_0438,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0439,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0440,58e9a8279e7ed4d4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 部分导联T波改变:TⅠ、aVL、Ⅱ、Ⅲ、aVF、V1、V2、V3、V4、V5、V6低平、双向、双峰或切迹、倒置,TV1>TV5、V6""}
+```",2037d68d9f376907
+ECG_0441,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0442,8c9952e97601190c,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动伴快速心室率,不完全性右束支阻滞""}
+```",3c2e5c4697150028
+ECG_0443,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0444,686924e337226c66,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""快速室率房颤动, ST-T改变, 电轴左偏(电轴-45度)""}
+```",28a2990c6f6da610
+ECG_0445,3d29a79f637b096e,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房颤可能""}
+```",c619709b161de57d
+ECG_0446,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0447,a8e7a318f2a960ca,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动，左心室高电压""}
+```",bc0a9dd4bae87156
+ECG_0448,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0449,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0450,91906dc480b1a5ef,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动伴室内差异传导，提示：左心室肥厚伴ST-T变化""}
+```",d512bb01abcfb140
+ECG_0451,d0ac1bdd74eb9010,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动（缓慢型）, 部分导联ST段改变""}
+```",525359e1cefe77fa
+ECG_0452,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0453,ecd778fc6ea3dd5d,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 左心室电压高, ST-T改变""}
+```",cc94eb0ded6ee693
+ECG_0454,037869083daf3937,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 左心室肥厚, 部分导联ST段改变""}
+```",50dbfc127d83195c
+ECG_0455,dc9700b2a572cbcb,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心电图心房颤动""}
+```",7c0c56a13a061091
+ECG_0456,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0457,ff9e07e62363b76c,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 完全性右束支阻滞""}
+```",0b77206a8dfe0fa2
+ECG_0458,be4fdabf4528bdbb,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":1,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 陈旧性下壁心肌梗死""}
+```",8472a57efbaf7e3d
+ECG_0459,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0460,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0461,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0462,c794abd6294659c3,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 左心室高电压, ST段压低""}
+```",eae0cfb75c6113db
+ECG_0463,a8e7a318f2a960ca,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动，左心室高电压""}
+```",bc0a9dd4bae87156
+ECG_0464,19333e0a9b442ae4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动""}
+```",24de8300daaf8b1d
+ECG_0465,d52e8e077f0222f5,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 电轴右偏""}
+```",e10b482f3762c842
+ECG_0466,0128afa0e56255c4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动，提示：左心室肥厚伴ST-T改变""}
+```",20f5baa306e20a7c
+ECG_0467,dacfbacefedf08c4,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""异位心律、心房颤动、房内差异性传导""}
+```",b19cbb549d1704eb
+ECG_0468,6bdc34d615750106,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 部分导联ST段改变""}
+```",1ce07b7537c8799f
+ECG_0469,f087f5b6a5647703,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动伴缓慢心室率，不完全性右束支阻滞，ST-T改变""}
+```",f23d9b746d473314
+ECG_0470,78651907c4ac4ae5,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, T波改变""}
+```",8fb2a07c02e304aa
+ECG_0471,56a6f52b886d085a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，不完全性右束支阻滞""}
+```",969d41809633d5f1
+ECG_0472,68b3e42617cb1daf,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左前分支传导阻滞，肢导联低电压""}
+```",53eef79077ec7235
+ECG_0473,593a37bd9898dce2,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞""}
+```",d27a23c5871e3b96
+ECG_0474,db3d159c21824385,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左前分支传导阻滞，电轴左偏""}
+```",b4cd4d42510bb6e4
+ECG_0475,56a6f52b886d085a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，不完全性右束支阻滞""}
+```",969d41809633d5f1
+ECG_0476,bcb79a4553f0e80c,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全右束支传导阻滞""}
+```",5ccb8f228e9c081e
+ECG_0477,593a37bd9898dce2,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞""}
+```",d27a23c5871e3b96
+ECG_0478,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0479,976bee08cb31f20b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓，一度房室传导阻滞""}
+```",2c7a96255c0e221d
+ECG_0480,27db4674babdf124,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞, 左前分支传导阻滞, 电轴左偏""}
+```",1dbd98a446a3c12e
+ECG_0481,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0482,c8b01d2b0f2f1c1a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞, 完全性右束支阻滞""}
+```",eed04e558dbb1b9f
+ECG_0483,9b7e91f390b8d051,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左前分支传导阻滞""}
+```",6e267841862ac311
+ECG_0484,8e3679fc1b75a2c8,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞、继发性ST-T改变""}
+```",5c4dee965e018c95
+ECG_0485,771436481e6caaa9,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""室性早搏，一度房室传导阻滞，电轴左偏(电轴-62度)""}
+```",0cf11f06da323505
+ECG_0486,976bee08cb31f20b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓，一度房室传导阻滞""}
+```",2c7a96255c0e221d
+ECG_0487,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0488,489d61ed0d1bddd7,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，完全性右束支阻滞""}
+```",96216895077f3e03
+ECG_0489,f2c9ff991aa30ce1,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓（50次/分）、完全性右束支传导阻滞""}
+```",2e37f9f1e08e82b4
+ECG_0490,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0491,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0492,097dcf9606526c75,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，右束支传导阻滞""}
+```",d4dfa1d86955f4a8
+ECG_0493,a13e25010188012a,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左前分支传导阻滞、T波低平""}
+```",28c7771957a7de85
+ECG_0494,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0495,8df9e185ee08a764,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞, ST-T改变""}
+```",2e42f4a4bb90a114
+ECG_0496,4d9f3cd8f3c207e8,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左前分支传导阻滞，完全性左束支传导阻滞""}
+```",d3fb2ca388f312d2
+ECG_0497,b1ce5b206ffe1d27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""偶发房性早搏，一度房室传导阻滞""}
+```",8c41243fe367ab64
+ECG_0498,f82a66c3e1c670d4,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0499,2c7c2c2ce068a190,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 左前分支传导阻滞""}
+```",846b6b5dc5df40a5
+ECG_0500,a370ff8b585ca33b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞, ST-T改变""}
+```",2e42f4a4bb90a114
+ECG_0501,393c426d1aff21c2,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""I度房室传导阻滞""}
+```",62e9938fb39062b1
+ECG_0502,66c5fa95cfed7b13,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，完全性右束支阻滞""}
+```",96216895077f3e03
+ECG_0503,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0504,8a0322a4abe5d184,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全右束支传导阻滞，左心房肥大""}
+```",1eae68c9db863532
+ECG_0505,b653fac3ea4d4ed3,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞(P-R间期 299ms)""}
+```",d595c410a9492b2c
+ECG_0506,f86acc9412781bf5,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全右束支传导阻滞，ST段改变""}
+```",2b0296187568ee73
+ECG_0507,5e238ca0e7d6b4fa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓，一度房室传导阻滞""}
+```",2c7a96255c0e221d
+ECG_0508,b56af02ae63289bf,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动伴快速心室率，左前分支传导阻滞""}
+```",994e19a95b8f5891
+ECG_0509,dd360189c30b7851,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，部分导联ST段改变""}
+```",ec28ec8f32e45801
+ECG_0510,593a37bd9898dce2,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞""}
+```",d27a23c5871e3b96
+ECG_0511,9b7e91f390b8d051,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，左前分支传导阻滞""}
+```",6e267841862ac311
+ECG_0512,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0513,2ab109005a7b261e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，完全性右束支阻滞，左前分支传导阻滞""}
+```",e1480c43862a5c1b
+ECG_0514,de1aa4689ad77256,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0515,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0516,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0517,c1d43cd449a24311,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房性早搏，一度房室传导阻滞""}
+```",d91550b7e2b3e380
+ECG_0518,842be69deed006fa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0519,2d1a332264e708aa,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0520,a4482973ec5aa03d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0521,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0522,4aa3e717845b6d97,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律 左心室肥厚 ST-T改变""}
+```",15e4c9c7b8b4be35
+ECG_0523,c4e579e30fa5a621,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，性ST-T改变""}
+```",4a6fd58cfb448e16
+ECG_0524,d785134bda3637ee,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，ST段改变""}
+```",c73584e8424c1d72
+ECG_0525,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0526,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0527,38080d96b3d9c4d0,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""频发室性早搏, ST-T改变""}
+```",e56948be4561e368
+ECG_0528,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0529,1831d2e8e01ca90c,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 左心室电压高, ST-T改变""}
+```",78a543ca10b65eca
+ECG_0530,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0531,4656eb466fe10308,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""ST段J点抬高，提示心室早期复极""}
+```",7f396e3d6d1f35c5
+ECG_0532,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0533,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0534,80f9b81f8243f576,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，原发性ST-T改变""}
+```",f8628425ddb0b4c3
+ECG_0535,def3139c3994e102,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""频发房性早搏, ST-T改变""}
+```",c1931c75a65da98c
+ECG_0536,9b1c59c2375b0b1d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞、左前分支传导阻滞、继发性ST-T改变""}
+```",1ea1a20a7d7077b3
+ECG_0537,2606e45fa4cc36ec,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""不完全性右束支阻滞, ST-T改变""}
+```",cb6dd94d5efbd628
+ECG_0538,fe0ecee2b0fe4dc1,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 1, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心动过缓，ST段J点抬高提示心室早期复极""}
+```",1a849f8363bcfda2
+ECG_0539,d33fc34283793ce9,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, ST-T改变""}
+```",d8c5e45f1eeca35d
+ECG_0540,331eb27dd81f7e44,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，一度房室传导阻滞，导联ST段改变""}
+```",f2c5c5f12947dcda
+ECG_0541,a5e6e15ba7c1ccf7,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""轻度ST段压低""}
+```",4aeb1a0598d3169f
+ECG_0542,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0543,df8e9bc0e6bf1552,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 左心室高电压, ST-T改变""}
+```",a0e3ab16b1706de4
+ECG_0544,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0545,0bae0e37e96d4b5e,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律 部分导联ST段改变""}
+```",58a35c7f69dcd328
+ECG_0546,5e74e9c60f77f13e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓 部分导联ST段改变""}
+```",341d09716b32e370
+ECG_0547,4829d19a5b65e344,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 1, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心动不齐 部分导联ST段改变""}
+```",dbaf60eebd6d9123
+ECG_0548,a2ef2dcdf778f7f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，部分导联ST段改变""}
+```",92c87bf24a0f160f
+ECG_0549,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0550,0671e5e58324a2bd,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过缓 部分导联ST段改变""}
+```",341d09716b32e370
+ECG_0551,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0552,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0553,94a9c3f4b446b8ac,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律过速, ST-T改变轻度""}
+```",a4fa59717496290d
+ECG_0554,603906d54e64682e,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 1, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心动不齐 原发性ST-T改变""}
+```",61f994af6449147c
+ECG_0555,0bfc87f20c648535,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，一度房室传导阻滞，ST-T改变""}
+```",1092d11fea0365c1
+ECG_0556,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0557,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0558,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0559,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0560,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0561,f399b0109d0d5619,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞，原发性ST-T改变""}
+```",85a1f51803995311
+ECG_0562,6bdc34d615750106,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, 部分导联ST段改变""}
+```",1ce07b7537c8799f
+ECG_0563,5bab4c2c5eeac86b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0564,2bb013f815322c21,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""原发性ST-T改变""}
+```",cb5839117bb09776
+ECG_0565,bc33701ee81541b2,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 1, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心动过速，部分导联ST段改变：STⅠ、aVL、Ⅱ、Ⅲ、aVF、V1、V2、V3、V4、V5、V6压低>0.05mv""}
+```",15c10203c9efed68
+ECG_0566,7631c15b5f62ce8b,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
+```",07461f97cdcdc967
+ECG_0567,bcc1fb9e90218dec,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，原发性ST-T改变""}
+```",f8628425ddb0b4c3
+ECG_0568,8df9e185ee08a764,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞, ST-T改变""}
+```",2e42f4a4bb90a114
+ECG_0569,a2ef2dcdf778f7f3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""窦性心律，部分导联ST段改变""}
+```",92c87bf24a0f160f
+ECG_0570,31367005bc0a1d54,"```json
+{""ecg_normal"":0,""ecg_af"":1,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""心房颤动, ST-T改变""}
+```",d8c5e45f1eeca35d

@@ -3,7 +3,7 @@
 gold 终值解析：A1==A2 → A1；否则 results/arbitration_decisions.csv per-variable 仲裁值
 （修复 ECG_0374/0391 双仲裁行 per-row 列覆盖 bug——以仲裁 CSV 为权威）。
 门槛（预注册）：κ≥0.80；F1_pos≥0.90；acc≥95%；分年份层 acc≥90%。
-冻结策略（沿用 2026-09-09 拍板口径）：n_pass≥8/12 → 整域冻结+未过变量 below-gate 注记。
+冻结策略（pre-specified, 2026-09-09）：n_pass≥8/12 → 整域冻结+未过变量 below-gate 注记。
 输出：results/m2d_acceptance_ecg.csv
 用法：python code/29_ecg_acceptance.py [--no-freeze]
 """
@@ -127,7 +127,7 @@ def main():
     acc = pd.DataFrame(all_rows)
     acc.to_csv(os.path.join(ROOT, "results", "m2d_acceptance_ecg.csv"), index=False,
                encoding="utf-8-sig")
-    # 冻结判定（沿用拍板口径：整域冻结+below-gate 注记）
+    # 冻结判定（pre-specified：整域冻结+below-gate 注记）
     m14 = acc[(acc.model == "qwen2.5:14b") & (acc.variable != "_SUMMARY_")]
     n_pass = int((m14.verdict == "PASS").sum())
     fail_vars = set(m14[m14.verdict == "FAIL"]["variable"])

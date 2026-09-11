@@ -345,15 +345,17 @@ def main():
     ax2.axvline(1, color="black", lw=0.8)
     ax2.set_yticks(ys)
     ax2.set_yticklabels([o[1] for o in order], fontsize=6.4)
-    ax2.set_xlabel("HR for MASLD -> incident any-ECG-abnormality (harmonized)")
+    ax2.set_xlabel("HR for MASLD → incident any-ECG-abnormality (harmonized)")
     ax2.set_xlim(0.90, 1.22)
     ax2.set_title("b  Differential replay reproduces the legacy estimate", fontsize=7.5,
                   fontweight="bold", loc="left")
     ax2.legend(fontsize=6, frameon=False, loc="upper left")
     ax2.spines[["top", "right"]].set_visible(False)
     fig.tight_layout()
-    fig.savefig(os.path.join(FIG, "figS1_differential_replay.png"), dpi=300, facecolor="white")
-    fig.savefig(os.path.join(FIG, "figS1_differential_replay.pdf"), facecolor="white")
+    fig.savefig(os.path.join(FIG, "figS1_differential_replay.png"), dpi=300, facecolor="white",
+                bbox_inches="tight")
+    fig.savefig(os.path.join(FIG, "figS1_differential_replay.pdf"), facecolor="white",
+                bbox_inches="tight")
     print(f"\n-> figures/figS1_differential_replay.png/.pdf | total {time.time()-t0:.0f}s")
     return 0
 

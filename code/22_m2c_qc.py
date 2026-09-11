@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """22_m2c_qc.py —— M2c 跑批收尾 QC + 对冻结金标准的一致性预览
-输入：data/llm_echo300_v21__{model}.csv ×3；data/金标准标注工作簿_终版.xlsx（ECHO_PG）；
+输入：data/llm_echo300_v21__{model}.csv ×3；data/gold_annotation_workbook_final.xlsx（ECHO_PG）；
       results/round2_final_resolution.csv（lvh/la_dilate 终值解析）
 QC：JSON 解析率、ERROR 数、枚举合法性（label/reflux_grade/二值列/ef数值）
 预览：consensus 终值（分歧行剔除）上各模型的 raw agreement 与 Cohen's κ（lvh/la_dilate/echo_normal/ef_abnormal/reflux_grade）
@@ -44,7 +44,7 @@ def parse_llm(raw):
 
 
 def gold_finals():
-    e = pd.read_excel(os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx"),
+    e = pd.read_excel(os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx"),
                       sheet_name="ECHO_PG", dtype=str)
     res = pd.read_csv(os.path.join(ROOT, "results", "round2_final_resolution.csv"), dtype=str)
     fin = {v: res[res.variable == v].set_index("sample_id")["final"]

@@ -19,7 +19,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROMPT = os.path.join(ROOT, "..", "00-三线探索-多模态动态队列", "docs",
                       "llm_echo_prompt_template_v2_1.md")
-FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 API = "http://127.0.0.1:11434/api/chat"
 
 

@@ -12,7 +12,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROMPT = os.path.join(ROOT, "..", "00-三线探索-多模态动态队列", "docs",
                       "llm_ecg_prompt_template_v1.md")
-FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 ECG_VARS = ["ecg_normal", "ecg_af", "ecg_pac_pvc", "ecg_stt", "ecg_avblock", "ecg_bbb",
             "ecg_rate", "ecg_srirr", "ecg_axis", "ecg_qwave_mi", "ecg_other", "ecg_unreadable"]
 # 仲裁边界例（来自 results/arbitration_decisions.csv）+ 正常例

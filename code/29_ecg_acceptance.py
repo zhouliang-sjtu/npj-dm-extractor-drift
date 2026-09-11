@@ -55,7 +55,7 @@ def f1_pos(a, b):
 
 
 def gold_finals():
-    e = pd.read_excel(os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx"),
+    e = pd.read_excel(os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx"),
                       sheet_name="ECG_H", dtype=str).set_index("sample_id")
     arb = pd.read_csv(os.path.join(ROOT, "results", "arbitration_decisions.csv"), dtype=str)
     arb_map = {(r["sample_id"], r["variable"]): r["final"]
@@ -141,7 +141,7 @@ def main():
         e_["accepted_model"] = "qwen2.5:14b (Ollama, 本地)"
         e_["acceptance"] = {
             "file": "results/m2d_acceptance_ecg.csv",
-            "gold": "data/金标准标注工作簿_终版.xlsx (ECG_H, n=570, 双标注+仲裁终值)",
+            "gold": "data/gold_annotation_workbook_final.xlsx (ECG_H, n=570, 双标注+仲裁终值)",
             "below_gate": {v: str(m14[m14.variable == v].iloc[0]["fail_note"])
                            for v in sorted(fail_vars)},
         }

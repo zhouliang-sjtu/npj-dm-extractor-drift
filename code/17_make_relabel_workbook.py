@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """17_make_relabel_workbook.py —— C方案：echo_lvh / echo_la_dilate 依手册v2重标工作簿
-来源：data/金标准标注工作簿_终版.xlsx 的 ECHO_PG（仅取 sample_id/exam_date/text，盲法不带旧值）
+来源：data/gold_annotation_workbook_final.xlsx 的 ECHO_PG（仅取 sample_id/exam_date/text，盲法不带旧值）
 输出：10_expert-consultation/07_重标工作簿_ECHO两变量.xlsx（说明sheet + 重标sheet，0/1下拉）
 """
 import os
@@ -12,7 +12,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.utils import get_column_letter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+SRC = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 OUT = os.path.join(ROOT, "10_expert-consultation", "07_重标工作簿_ECHO两变量.xlsx")
 
 

@@ -6,7 +6,7 @@
         - 自重复标注任务包_A1A2标注完成.xlsx（4 域 sheet，A1/A2 全变量，依手册 v2.0）
   首轮  10_expert-consultation/recycle/01-第一轮2人盲标结果/金标准标注工作簿.xlsx（A1/A2 首轮本人值）
   任务包 10_expert-consultation/dataset/03-第二轮2人重复盲标/自重复标注任务包.xlsx（原样核验源）
-  终版  data/金标准标注工作簿_终版.xlsx
+  终版  data/gold_annotation_workbook_final.xlsx
 功能：
   A 核验（第二轮登记表清单的自动项）：行数 / sample_id·text 原样 / 取值合法 / 逻辑 / flag 配套 / 填写完整率
   B 重标一致性（v2.0）：A1 vs A2 κ / Gwet AC1 / F1_pos（echo_lvh、echo_la_dilate），对照首轮基线；残余分歧清单
@@ -33,7 +33,7 @@ TASKPKG = os.path.join(ROOT, "10_expert-consultation", "dataset", "03-第二轮2
                        "自重复标注任务包.xlsx")
 ROUND1 = os.path.join(ROOT, "10_expert-consultation", "recycle", "01-第一轮2人盲标结果",
                       "金标准标注工作簿.xlsx")
-FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 RES = os.path.join(ROOT, "results")
 
 BINARY = {  # 各域二值变量（ef_value 为数值列、reflux_grade/us_fatty_degree 为多分类，另行处理）

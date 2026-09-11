@@ -15,7 +15,7 @@
       "annotators": "A1 (medical-imaging physician, intermediate grade, general practice, 1-year ultrasound rotation); A2 (clinical-medicine physician, intermediate grade, general practice, 2-year medical-technology rotations)",
       "acceptance": {
         "file": "results/m2d_acceptance_ecg.csv",
-        "gold": "data/金标准标注工作簿_终版.xlsx (ECG_H, n=570, double-annotated + adjudicated final)",
+        "gold": "data/gold_annotation_workbook_final.xlsx (ECG_H, n=570, double-annotated + adjudicated final)",
         "below_gate": {
           "ecg_other": "kappa=0.685, acc=0.963; 15 false negatives are all isolated left-ventricular-high-voltage statements (annotator consensus other=1 conflicts with the arbitrated convention ECG_0175/codebook v2.0 — gold-standard convention inconsistency, the model follows the arbitrated convention); 6 false positives are findings not enumerated in the manual other-list (aberrant conduction x3, QT prolongation, short PR, one domain-contaminated text)"
         },
@@ -60,7 +60,7 @@
       "accepted_model": "qwen2.5:14b (Ollama, local)",
       "acceptance": {
         "file": "results/m2d_acceptance.csv",
-        "gold": "data/金标准标注工作簿_终版.xlsx (ECHO_PG, n=300, double-annotated + adjudicated final)",
+        "gold": "data/gold_annotation_workbook_final.xlsx (ECHO_PG, n=300, double-annotated + adjudicated final)",
         "score_mode": "derived scoring: echo_normal / echo_variant deterministically derived from frozen structured fields plus the label field",
         "variable_notes": {
           "echo_la_dilate": "below-gate restricted use: kappa=0.877/acc=0.973 pass, F1_pos=0.892 below the 0.90 gate (8 false positives: 4 sub-threshold misjudgements, 2 non-enumerated phrasings, 1 without quadrant diameter, 1 LV/LA confusion); 95% CI overlaps 0.90",

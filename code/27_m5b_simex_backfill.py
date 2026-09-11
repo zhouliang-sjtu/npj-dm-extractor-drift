@@ -20,7 +20,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 RES = os.path.join(ROOT, "results")
 PI = 0.3461  # 与 code/06 网格同源（队列 MASLD 患病率）
 # 2026-09-10 审计更新：观测HR改用当前数据集重估值（code/32 phantom_specs_table.csv）

@@ -17,7 +17,7 @@ import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, "results")
-WB = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+WB = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 B = 1000
 SEED = 42
 

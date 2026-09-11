@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WB = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+WB = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 TARGETS = [
     "1.窦性心律\n2.完全性右束支阻滞\n3.左心室高电压",
     "1.窦性心律\n2.T波改变（TV1>TV5)",

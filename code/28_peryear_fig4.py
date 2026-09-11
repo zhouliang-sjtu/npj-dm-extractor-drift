@@ -136,7 +136,7 @@ def llm_echo_la(raw):
 
 def gold_ecg():
     """per-variable 终值：共识 → per-variable 仲裁（arbitration_decisions.csv 权威）"""
-    e = pd.read_excel(os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx"),
+    e = pd.read_excel(os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx"),
                       sheet_name="ECG_H", dtype=str).set_index("sample_id")
     arb = pd.read_csv(os.path.join(ROOT, "results", "arbitration_decisions.csv"), dtype=str)
     arb_map = {(r["sample_id"], r["variable"]): r["final"]
@@ -156,7 +156,7 @@ def gold_ecg():
 
 
 def gold_echo():
-    e = pd.read_excel(os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx"),
+    e = pd.read_excel(os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx"),
                       sheet_name="ECHO_PG", dtype=str).set_index("sample_id")
     res = pd.read_csv(os.path.join(ROOT, "results", "round2_final_resolution.csv"), dtype=str)
     fin_la = res[res.variable == "echo_la_dilate"].set_index("sample_id")["final"]

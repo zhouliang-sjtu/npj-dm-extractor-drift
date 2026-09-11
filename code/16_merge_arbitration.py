@@ -2,7 +2,7 @@
 """16_merge_arbitration.py —— M1e 仲裁终值回填与验收
 步骤：
   1) 校验仲裁结果工作簿（裁定必填/枚举合法/A1A2与原工作簿一致）
-  2) 不一致34条：终值回填 gold 工作簿 arbitration 列 -> data/金标准标注工作簿_终版.xlsx
+  2) 不一致34条：终值回填 gold 工作簿 arbitration 列 -> data/gold_annotation_workbook_final.xlsx
      flag行：裁定列不写入终版，处理意见导出 results/arbitration_flag_decisions.csv
   3) 验收统计：A1/A2 各自 vs 仲裁终版 F1 与准确率（总体+分年份），对照门槛 F1>=0.90、acc>=95%、层acc>=90%
 用法：python code/16_merge_arbitration.py [--apply]
@@ -16,7 +16,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARB = os.path.join(ROOT, "10_expert-consultation", "recycle", "仲裁结果工作簿_20260903.xlsx")
 GOLD = os.path.join(ROOT, "10_expert-consultation", "recycle", "金标准标注工作簿.xlsx")
-GOLD_FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
+GOLD_FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
 RES = os.path.join(ROOT, "results")
 
 ENUM = {"us_fatty_degree": ["轻", "中", "重"],

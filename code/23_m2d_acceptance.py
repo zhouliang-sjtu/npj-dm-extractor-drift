@@ -64,7 +64,7 @@ def f1_cls(a, b, cls):
 
 
 def gold_frame():
-    e = pd.read_excel(os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx"),
+    e = pd.read_excel(os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx"),
                       sheet_name="ECHO_PG", dtype=str).set_index("sample_id")
     res = pd.read_csv(os.path.join(ROOT, "results", "round2_final_resolution.csv"), dtype=str)
     fin = {v: res[res.variable == v].set_index("sample_id")["final"]
@@ -214,7 +214,7 @@ def main():
         e["accepted_model"] = "qwen2.5:14b (Ollama, 本地)"
         e["acceptance"] = {
             "file": "results/m2d_acceptance.csv",
-            "gold": "data/金标准标注工作簿_终版.xlsx (ECHO_PG, n=300, 双标注+仲裁终值)",
+            "gold": "data/gold_annotation_workbook_final.xlsx (ECHO_PG, n=300, 双标注+仲裁终值)",
             "score_mode": "方案B：echo_normal/echo_variant 由字段+label兜底确定性推导（见脚本头注释）",
             "reflux_repairs": "results/m2d_reflux_repairs.csv",
             "variable_notes": {

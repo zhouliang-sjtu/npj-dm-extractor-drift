@@ -12,8 +12,8 @@ import sys
 import numpy as np
 import pandas as pd
 
-H3 = r"D:/projects/Paper/00-三线探索-多模态动态队列"
-RES = r"D:/projects/Paper/论文01-金标准标注-LLM抽取验证/results"
+H3 = os.environ.get("H3_ROOT", "")  # institution-side analysis tables (not redistributed)
+RES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")
 
 CONT = [  # (列名, 展示名, 单位)
     ("age", "Age at baseline, years", "years"),

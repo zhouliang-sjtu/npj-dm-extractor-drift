@@ -15,9 +15,9 @@ import numpy as np
 import pandas as pd
 from lifelines import CoxTimeVaryingFitter
 
-BASE = r"D:/projects/Paper/论文01-金标准标注-LLM抽取验证"
-H3 = r"D:/projects/Paper/00-三线探索-多模态动态队列"
-RES = os.path.join(BASE, "results")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+H3 = os.environ.get("H3_ROOT", "")  # institution-side analysis tables (not redistributed)
+RES = os.path.join(ROOT, "results")
 
 
 def fit_crude(frame, outkey):

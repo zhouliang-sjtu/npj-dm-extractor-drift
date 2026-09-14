@@ -1,18 +1,18 @@
 ﻿domain,outcome,extractor,year,n,cohen_kappa,F1_target
-ECG,any_abnormal,dict v1,overall,561,0.799,0.911
+ECG,any_abnormal,dict v1,overall,561,0.866,0.942
 ECG,any_abnormal,dict v1,2018,76,0.894,0.952
 ECG,any_abnormal,dict v1,2019,78,0.974,0.988
 ECG,any_abnormal,dict v1,2020,79,0.975,0.987
 ECG,any_abnormal,dict v1,2021,83,0.976,0.988
-ECG,any_abnormal,dict v1,2022,71,0.41,0.701
+ECG,any_abnormal,dict v1,2022,71,0.885,0.951
 ECG,any_abnormal,dict v1,2023,80,0.406,0.742
 ECG,any_abnormal,dict v1,2024,94,0.974,0.992
-ECG,any_abnormal,dict v3,overall,561,1.0,1.0
+ECG,any_abnormal,dict v3,overall,561,0.996,0.999
 ECG,any_abnormal,dict v3,2018,76,1.0,1.0
 ECG,any_abnormal,dict v3,2019,78,1.0,1.0
 ECG,any_abnormal,dict v3,2020,79,1.0,1.0
 ECG,any_abnormal,dict v3,2021,83,1.0,1.0
-ECG,any_abnormal,dict v3,2022,71,1.0,1.0
+ECG,any_abnormal,dict v3,2022,71,0.97,0.989
 ECG,any_abnormal,dict v3,2023,80,1.0,1.0
 ECG,any_abnormal,dict v3,2024,94,1.0,1.0
 ECG,any_abnormal,qwen2.5:14b,overall,561,0.989,0.996
@@ -20,23 +20,23 @@ ECG,any_abnormal,qwen2.5:14b,2018,76,0.973,0.989
 ECG,any_abnormal,qwen2.5:14b,2019,78,0.974,0.988
 ECG,any_abnormal,qwen2.5:14b,2020,79,1.0,1.0
 ECG,any_abnormal,qwen2.5:14b,2021,83,1.0,1.0
-ECG,any_abnormal,qwen2.5:14b,2022,71,0.966,0.99
+ECG,any_abnormal,qwen2.5:14b,2022,71,0.97,0.989
 ECG,any_abnormal,qwen2.5:14b,2023,80,1.0,1.0
 ECG,any_abnormal,qwen2.5:14b,2024,94,1.0,1.0
-ECG,any_abnormal,qwen2.5:7b,overall,561,0.992,0.997
+ECG,any_abnormal,qwen2.5:7b,overall,561,0.993,0.997
 ECG,any_abnormal,qwen2.5:7b,2018,76,1.0,1.0
 ECG,any_abnormal,qwen2.5:7b,2019,78,1.0,1.0
 ECG,any_abnormal,qwen2.5:7b,2020,79,1.0,1.0
 ECG,any_abnormal,qwen2.5:7b,2021,83,1.0,1.0
-ECG,any_abnormal,qwen2.5:7b,2022,71,0.966,0.99
+ECG,any_abnormal,qwen2.5:7b,2022,71,0.97,0.989
 ECG,any_abnormal,qwen2.5:7b,2023,80,1.0,1.0
 ECG,any_abnormal,qwen2.5:7b,2024,94,0.974,0.992
-ECG,any_abnormal,glm4:9b,overall,561,0.966,0.987
+ECG,any_abnormal,glm4:9b,overall,561,0.97,0.988
 ECG,any_abnormal,glm4:9b,2018,76,0.92,0.965
 ECG,any_abnormal,glm4:9b,2019,78,1.0,1.0
 ECG,any_abnormal,glm4:9b,2020,79,1.0,1.0
 ECG,any_abnormal,glm4:9b,2021,83,1.0,1.0
-ECG,any_abnormal,glm4:9b,2022,71,0.966,0.99
+ECG,any_abnormal,glm4:9b,2022,71,1.0,1.0
 ECG,any_abnormal,glm4:9b,2023,80,0.966,0.992
 ECG,any_abnormal,glm4:9b,2024,94,0.9,0.969
 ECHO,echo_normal,qwen2.5:14b,overall,300,0.431,

@@ -4,9 +4,10 @@
 目的：把幻影机制从"排除法解释"升级为"定量重现"。
   M1 重放仿真：以 v3 结局为真值代理（v3 对金标准逐年 κ=1.000），
     在金样本上直接实测 dict v1 的逐年非对称错分参数 (Se_t, Sp_t)
-    （金标准终值 vs v1 无否定窗口重放的逐年混淆矩阵，2022-23 以漏检为主导），
+    （金标准终值 vs v1 无否定窗口重放的逐年混淆矩阵，2023 以漏检为主导），
     对真值结局施加该年索引错分、完整重建"既往波无结局"风险集并拟合
-    harmonized 离散时间 Cox——检验能否定量重现真实 v1 的估计（HR 0.9804 / +yearFE 0.9735）。
+    harmonized 离散时间 Cox——检验能否定量重现真实 v1 的估计（HR 与 +yearFE 值
+    由 phantom_specs_table.csv 读取，不硬编码）。
   对照臂：
     A  无错分（=v3 真值代理本身，须逐位复现 phantom_specs_table 的 v3 行——构建正确性校验）
     C1 固定错分（总体 (Se,Sp) 常数：同一误差总量、不随年份变化——非微分对照）
@@ -255,9 +256,13 @@ def main():
         d.update(summarize(grp))
         summ.append(d)
     summ = pd.DataFrame(summ)
-    for name, hr, hrfe in [("REAL_v1", 0.9804, 0.9735), ("REAL_v3", 1.1196, 0.9797)]:
-        summ.loc[len(summ)] = {"arm": name, "HR_noFE": hr, "HR_noFE_lo": np.nan,
-                               "HR_noFE_hi": np.nan, "HR_yearFE": hrfe, "HR_yearFE_lo": np.nan,
+    # 真实估计参照行：从权威表 phantom_specs_table.csv 读取（避免硬编码漂移）
+    _ps = pd.read_csv(os.path.join(RES, "phantom_specs_table.csv"), encoding="utf-8-sig")
+    _ps = _ps.set_index("spec")["HR"].astype(float)
+    for name, spec_no, spec_fe in [("REAL_v1", "harmonized_v1", "harmonized_v1+yearFE"),
+                                   ("REAL_v3", "harmonized_v3", "harmonized_v3+yearFE")]:
+        summ.loc[len(summ)] = {"arm": name, "HR_noFE": _ps[spec_no], "HR_noFE_lo": np.nan,
+                               "HR_noFE_hi": np.nan, "HR_yearFE": _ps[spec_fe], "HR_yearFE_lo": np.nan,
                                "HR_yearFE_hi": np.nan, "R": 1}
     summ.to_csv(os.path.join(RES, "replay_summary.csv"), index=False, encoding="utf-8-sig")
     print("\n== 重放汇总 ==\n", summ.to_string(index=False), flush=True)
@@ -346,7 +351,7 @@ def main():
     ax2.set_yticks(ys)
     ax2.set_yticklabels([o[1] for o in order], fontsize=6.4)
     ax2.set_xlabel("HR for MASLD → incident any-ECG-abnormality (harmonized)")
-    ax2.set_xlim(0.90, 1.22)
+    ax2.set_xlim(0.86, 1.22)  # 2026-09-13 终审：左移下限，让 upper-left 图例避开 v3+FE 开口点(0.980)
     ax2.set_title("b  Differential replay reproduces the legacy estimate", fontsize=7.5,
                   fontweight="bold", loc="left")
     ax2.legend(fontsize=6, frameon=False, loc="upper left")

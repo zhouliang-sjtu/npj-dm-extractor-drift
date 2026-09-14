@@ -29,7 +29,7 @@ os.makedirs(FIG, exist_ok=True)
 
 C_RED, C_BLU, C_ORG, C_GRY, C_DRK, C_GRN = ("#C0392B", "#2E86C1", "#E67E22",
                                             "#7F8C8D", "#2C3E50", "#1E8449")
-SHIFT = (2021.5, 2023.5)  # 2022-23 模板转换期底纹
+SHIFT = (2022.5, 2023.5)  # 2023 模板转换期底纹
 
 
 def save(fig, name):
@@ -71,7 +71,7 @@ def main():
     years = sorted(by.year)
     axa.plot(years, by.cohen_kappa, color=C_BLU, marker="o", lw=2, ms=6, label="Cohen's κ (v1 vs v3)")
     shift_band(axa)
-    axa.annotate("κ=0.26", (2022, 0.263), xytext=(2022.1, 0.40), fontsize=8.5, color=C_DRK)
+    axa.annotate("κ=0.263", (2022, 0.263), xytext=(2022.1, 0.40), fontsize=8.5, color=C_DRK)
     axa.annotate("κ=0.256", (2023, 0.256), xytext=(2022.9, 0.14), fontsize=8.5, color=C_DRK)
     axa.set_ylim(0, 1.05)
     axa.set_ylabel("Cohen's κ")
@@ -160,18 +160,18 @@ def main():
     yrs = [str(y) for y in years]
     for ext, (c, mk, ls, lab) in styles4.items():
         s = ecg[ecg.extractor == ext].set_index("year").loc[yrs]
-        if ext in ("dict v1", "dict v3"):
-            ax.plot(range(len(yrs)), s.cohen_kappa.astype(float), color=c, marker=mk, ls=ls,
-                    lw=1.8, ms=6, label=lab)
-        else:
-            ci = pyci[(pyci.extractor == ext) & (pyci.year != "overall")].set_index("year").loc[yrs]
-            ax.errorbar(range(len(yrs)), s.cohen_kappa.astype(float),
-                        yerr=[s.cohen_kappa.astype(float) - ci.ci_lo.astype(float),
-                              ci.ci_hi.astype(float) - s.cohen_kappa.astype(float)],
-                        color=c, marker=mk, ls=ls, lw=1.8, ms=5, capsize=2.5, label=lab)
+        # 2026-09-13 终审：词典两列同样画 bootstrap 95% CI（audit_ci_peryear.csv 本就含
+        # dict v1/v3 行）——与图例 "bootstrap 95% CI for all extractors" 及 Fig2b 处理一致；
+        # v3 的 CI 退化为零宽（κ=1.000 全年份），视觉上不可见属预期
+        ci = pyci[(pyci.extractor == ext) & (pyci.year != "overall")].set_index("year").loc[yrs]
+        ms = 6 if ext in ("dict v1", "dict v3") else 5
+        ax.errorbar(range(len(yrs)), s.cohen_kappa.astype(float),
+                    yerr=[s.cohen_kappa.astype(float) - ci.ci_lo.astype(float),
+                          ci.ci_hi.astype(float) - s.cohen_kappa.astype(float)],
+                    color=c, marker=mk, ls=ls, lw=1.8, ms=ms, capsize=2.5, label=lab)
     ax.axhline(0.80, color="black", ls=":", lw=1)
     ax.text(len(yrs) - 0.98, 0.812, "acceptance gate κ=0.80", fontsize=8, va="bottom")
-    ax.axvspan(1.5, 3.5 + 0.0, color=C_ORG, alpha=0.10, lw=0)  # 2022–23 模板切换（图注说明，图内不再加注释以避免与图例重叠）
+    ax.axvspan(4.5, 5.5, color=C_ORG, alpha=0.10, lw=0)  # 2023 模板切换（索引轴 5；图注说明，图内不再加注释以避免与图例重叠）
     ax.set_xticks(range(len(yrs)))
     ax.set_xticklabels(yrs)
     ax.set_ylim(0, 1.05)
@@ -221,7 +221,7 @@ def main():
     colors = [C_BLU, C_GRN]
     for (name, r), c in zip(m5b.iterrows(), colors):
         axb.scatter([r.HR_corrected], [r.HR_observed], s=70, color=c, zorder=5)
-        axb.annotate(f"{r.HR_observed:.3f}→{r.HR_corrected:.3f}",
+        axb.annotate(f"{r.HR_observed:.4f}→{r.HR_corrected:.4f}",
                      xy=(r.HR_corrected, r.HR_observed), xytext=(8, -12),
                      textcoords="offset points", fontsize=8, color=c)
     axb.plot([1, 1.5], [1, 1.5], "k--", lw=1)

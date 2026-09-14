@@ -3,7 +3,8 @@
 实测κ = 生产词典 v1 的 us_fatty vs 金标准终值（ABDUS_PG 300 + ABDUS_H 300，共识终值），
 v1 规则与生产 main.py extract_abd 完全一致（"脂肪肝"字样 或 细密+衰减/欠清 描述式）。
 推导：κ→Se=Sp（对称，解析法同 code/06）；HR_obs(HR_true) 风险混合公式数值反演出 HR_true。
-对三个已报告 HR 做校正：1.094（v1 anyAbnormal，幻影）、1.120（v3 anyAbnormal，幻影）、1.127（ST-T，特异匹配）。
+对两个已报告 HR 做校正：v3 anyAbnormal（幻影）、fullcov ST-T（特异匹配）；
+观测值由 results/phantom_specs_table.csv 读取（不硬编码）。
 输出：results/m5b_simex_kappa.csv、results/m5b_simex_backfill.csv、results/fig5b_simex_measured.png
 用法：python code/27_m5b_simex_backfill.py
 """
@@ -20,11 +21,14 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FINAL = os.path.join(ROOT, "data", "gold_annotation_workbook_final.xlsx")
+FINAL = os.path.join(ROOT, "data", "金标准标注工作簿_终版.xlsx")
 RES = os.path.join(ROOT, "results")
 PI = 0.3461  # 与 code/06 网格同源（队列 MASLD 患病率）
-# 2026-09-10 审计更新：观测HR改用当前数据集重估值（code/32 phantom_specs_table.csv）
-OBS_HRS = {"HR_obs_v3_anyAbnormal": 1.1196, "HR_obs_fullcov_STT": 1.0817}
+# 观测HR 一律从权威表读取（code/32 phantom_specs_table.csv），避免硬编码随数据修正漂移
+_SPEC_SRC = os.path.join(ROOT, "results", "phantom_specs_table.csv")
+_SPEC = pd.read_csv(_SPEC_SRC, encoding="utf-8-sig").set_index("spec")["HR"].astype(float)
+OBS_HRS = {"HR_obs_v3_anyAbnormal": float(_SPEC["harmonized_v3"]),
+           "HR_obs_fullcov_STT": float(_SPEC["fullcov_STT"])}
 
 
 def v1_fatty(text):

@@ -110,7 +110,7 @@ arrow(axa, 0.691, 0.652)
 # per-year bar chart (analysed narratives, audited build; sums to 121,283)
 years = [2018, 2019, 2020, 2021, 2022, 2023, 2024]
 narr = [14303, 16278, 16095, 15547, 17149, 21357, 20554]
-trans = {2022, 2023}
+trans = {2023}
 axbar = fig.add_axes([0.031, 0.178, 0.277, 0.400])  # 上移+降高：a2→柱图箭杆加长，且与 PG 框保持间距（柱轴顶 axa 0.648）
 cols = [ORANGE if y in trans else BLUE for y in years]
 axbar.bar(range(7), narr, width=0.62, color=cols, edgecolor="none")
@@ -124,7 +124,7 @@ axbar.set_ylim(0, 27500)
 # 标题画在轴内左上（避免 set_title 与上方 a2 框底边冲突），Σn 注记紧随其下
 axbar.text(0.02, 0.995, "Analysed ECG narratives per year", transform=axbar.transAxes,
            fontsize=6.8, fontweight="bold", ha="left", va="top", color="#111111")
-axbar.text(0.02, 0.895, "\u03a3n = 121,283\norange: template\ntransition (2022\u201323)",
+axbar.text(0.02, 0.895, "\u03a3n = 121,283\norange: template\ntransition (2023)",
            transform=axbar.transAxes, ha="left", va="top",
            fontsize=5.0, color="#444444", linespacing=1.3)
 for s in ("top", "right", "left"):
@@ -146,7 +146,7 @@ box(axb, 0.03, b_pos[0][0], 0.94, b_pos[0][1],
     tf=0.76, bf=0.32)
 box(axb, 0.03, b_pos[1][0], 0.94, b_pos[1][1],
     "1. ECG conclusions \u2014 n = 570",
-    "mother 600 = 60/year + 50/layer\n(AF \u00b7 conduction block \u00b7 ST-T)\n\u2192 570 reports (de-duplicated), all analysed",
+    "60/year × 7 + 50/layer × 3\n(AF · conduction block · ST-T)\n→ 570 reports (de-duplicated), all analysed",
     ec=BLUE, tf=0.76, bf=0.32)
 box(axb, 0.03, b_pos[2][0], 0.94, b_pos[2][1],
     "2. Cardiac ultrasound \u2014 n = 300",
@@ -154,7 +154,7 @@ box(axb, 0.03, b_pos[2][0], 0.94, b_pos[2][1],
     ec=ORANGE, tf=0.76, bf=0.32)
 box(axb, 0.03, b_pos[3][0], 0.94, b_pos[3][1],
     "3. Abdominal ultrasound \u2014 300 + 300",
-    "deep-phenotyping source: 300\n(150 rule+ / 150 rule\u2212)\ncommunity source: 300\n(30/year + 90 positive top-up)",
+    "deep-phenotyping source: 300\n(150 rule+ / 150 rule-)\ncommunity source: 300\n(30/year + 90 positive top-up)",
     ec=GREEN, tfs=6.8, tf=0.80, bf=0.34)
 box(axb, 0.03, b_pos[4][0], 0.94, b_pos[4][1],
     "Double-annotated adjudicated gold standard",

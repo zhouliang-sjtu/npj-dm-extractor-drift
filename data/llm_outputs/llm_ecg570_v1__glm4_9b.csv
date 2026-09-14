@@ -719,15 +719,15 @@ ECG_0239,0336ceff4e74efad,"```json
 ECG_0240,0336ceff4e74efad,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
 ```",3cde0eb3bdd5bf67
-ECG_0241,7f21a2cda41519e5,"```json
-{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""未见明显异常""}
-```",eaadaba364fd1c78
+ECG_0241,0336ceff4e74efad,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
+```",3cde0eb3bdd5bf67
 ECG_0242,e265c6e4beea81a3,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, 电轴左偏-°""}
 ```",0190175492e76142
-ECG_0243,dccf35ec917b50e3,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，胆囊结石""}
-```",6705ba08a6b2131a
+ECG_0243,87c8d44659d6bc27,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
 ECG_0244,33bc43fcf9a94dad,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
 ```",0f0ce75e5cf24fdc
@@ -737,65 +737,65 @@ ECG_0245,c612752332872af9,"```json
 ECG_0246,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
-ECG_0247,80a5d7f7f3c54393,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左肾囊肿8*5mm""}
-```",2ad395e693f8969e
+ECG_0247,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0248,afd39ebacd36f2f4,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平倒置、完全性右束支传导阻滞""}
 ```",e75fd652d773424d
 ECG_0249,a474a65940aca14a,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房室期前收缩""}
 ```",bddbb969da1c12de
-ECG_0250,c612752332872af9,"```json
-{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
-```",baf2cfe6f25c91a8
+ECG_0250,33bc43fcf9a94dad,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
+```",0f0ce75e5cf24fdc
 ECG_0251,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
-ECG_0252,b8cbdf3f5680ba36,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、胆囊切除、膀胱不充盈，子宫附件无法看清。""}
-```",f06009d66b10513a
+ECG_0252,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0253,0336ceff4e74efad,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
 ```",3cde0eb3bdd5bf67
-ECG_0254,7ae315b27d973826,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝""}
-```",f007c21c7ce019fe
-ECG_0255,b520c249828ff84e,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""轻度脂肪肝，左肾囊肿27*25mm，子宫不清。""}
-```",903cb22f5623018c
-ECG_0256,814dfa5b32dd4697,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""子宫不清""}
-```",837923f74b39d7dd
-ECG_0257,ec85e5ba2c3eaabd,"```json
+ECG_0254,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0255,cad43cef2cb1c070,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":1,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""房性期前收缩""}
+```",edbd5ae17e69cd36
+ECG_0256,cfc961758471f4d5,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
+ECG_0257,537a9da16aeeb8bd,"```json
 {
   ""ecg_normal"": 0,
   ""ecg_af"": 0,
   ""ecg_pac_pvc"": 0,
   ""ecg_stt"": 0,
-  ""ecg_avblock"": 0,
-  ""ecg_bbb"": 0,
+  ""ecg_avblock"": 1, // 完全性右束支传导阻滞
+  ""ecg_bbb"": 1, // 右束支传导阻滞
   ""ecg_rate"": 0,
   ""ecg_srirr"": 0,
   ""ecg_axis"": 0,
   ""ecg_qwave_mi"": 0,
   ""ecg_other"": 0,
-  ""ecg_unreadable"": 1,
-  ""evidence"": ""脂肪肝、胆囊结石5*4mm、肝囊肿大小11*12mm、双肾多囊肾，囊肿右侧较大约55*53mm，左侧较大约50*49mm、老年性子宫""
+  ""ecg_unreadable"": 0,
+  ""evidence"": ""窦性心律，T波倒置，完全性右束支传导阻滞""
 }
-```",4d009c43e14061bf
-ECG_0258,49a81400e11d67a3,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、肝囊肿13*10mm、左肾囊肿18*10mm""}
-```",279f904aa22aa7c2
-ECG_0259,144822380dcc24d7,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""血吸虫性肝病，脂肪肝，胆囊息肉5mm，脾稍大139*43mm""}
-```",2cb1b3d0ee436559
-ECG_0260,54980efaf738d847,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝、左肾结石4*4mm、膀胱不充盈，子宫附件无法看清。""}
-```",eca2177afc7b6afe
-ECG_0261,c6071929566862c0,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""胆囊息肉2mm""}
-```",96acd8c949bf2d20
+```",ed874e9af4a49869
+ECG_0258,4fec9e6845912e8d,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，电轴左偏- °""}
+```",e7ee044c5b5995e9
+ECG_0259,70752f001714bf7e,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""一度房室传导阻滞""}
+```",e05150b0cf21153a
+ECG_0260,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
+ECG_0261,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0262,0336ceff4e74efad,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
 ```",3cde0eb3bdd5bf67
@@ -811,18 +811,18 @@ ECG_0265,235ca39727135fc3,"```json
 ECG_0266,33bc43fcf9a94dad,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
 ```",0f0ce75e5cf24fdc
-ECG_0267,76764ba269b39799,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，左肾小囊肿，无尿不清。""}
-```",343dff14b34210c1
+ECG_0267,6c411dc50b62bda0,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波改变""}
+```",0040d19e555f483b
 ECG_0268,6266f9611c69543b,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""轻度ST段抬高""}
 ```",1dd249fa8dc614cd
 ECG_0269,0336ceff4e74efad,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""正常心电图""}
 ```",3cde0eb3bdd5bf67
-ECG_0270,1cec75e2ce1c4463,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""脂肪肝，肝内稍高回声10*8mm。""}
-```",34f50068cd4b5029
+ECG_0270,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0271,98b689954bc8c8ea,"```json
 {""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""肢体导联低电压""}
 ```",057f77b7df9b01db
@@ -832,76 +832,48 @@ ECG_0272,06ceb6bc6316dd64,"```json
 ECG_0273,33bc43fcf9a94dad,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""T波低平""}
 ```",0f0ce75e5cf24fdc
-ECG_0274,814dfa5b32dd4697,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""子宫不清""}
-```",837923f74b39d7dd
+ECG_0274,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0275,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
-ECG_0276,90489b0db18b2ad5,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""轻度脂肪肝，肝囊肿，子宫不清。""}
-```",08d77a185e6aa5a3
+ECG_0276,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0277,7631c15b5f62ce8b,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律, ST-T改变""}
 ```",07461f97cdcdc967
-ECG_0278,dcf38d0aaa54e5c9,"```json
-{
-  ""ecg_normal"": 0,
-  ""ecg_af"": 0,
-  ""ecg_pac_pvc"": 0,
-  ""ecg_stt"": 0,
-  ""ecg_avblock"": 0,
-  ""ecg_bbb"": 0,
-  ""ecg_rate"": 0,
-  ""ecg_srirr"": 0,
-  ""ecg_axis"": 0,
-  ""ecg_qwave_mi"": 0,
-  ""ecg_other"": 0,
-  ""ecg_unreadable"": 1,
-  ""evidence"": ""胆囊息肉，胆囊壁胆固醇结晶""
-}
-```",2bb24f054668f278
+ECG_0278,6f670b817e9def60,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 1, ""ecg_bbb"": 1, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""不完全性右束支阻滞""}
+```",6cf51732bc6ca00a
 ECG_0279,6bf0590e2968449d,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":1,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平双向""}
 ```",7ea1b39fd2c27894
-ECG_0280,624a1f91314c8e4c,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""右肾囊肿8*6mm""}
-```",53245dce92fdde86
+ECG_0280,235ca39727135fc3,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 1, ""ecg_unreadable"": 0, ""evidence"": ""左心室高电压""}
+```",d97d8b37a75ea888
 ECG_0281,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
 ECG_0282,a67d428edd2da060,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":1,""ecg_avblock"":1,""ecg_bbb"":1,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""完全性右束支传导阻滞、继发性ST-T改变、电轴右偏""}
 ```",c58308fe680fb1ca
-ECG_0283,c612752332872af9,"```json
-{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
-```",baf2cfe6f25c91a8
-ECG_0284,3102e6457e4c6c9c,"```json
-{
-  ""ecg_normal"": 0,
-  ""ecg_af"": 0,
-  ""ecg_pac_pvc"": 0,
-  ""ecg_stt"": 0,
-  ""ecg_avblock"": 0,
-  ""ecg_bbb"": 0,
-  ""ecg_rate"": 0,
-  ""ecg_srirr"": 0,
-  ""ecg_axis"": 0,
-  ""ecg_qwave_mi"": 0,
-  ""ecg_other"": 0,
-  ""ecg_unreadable"": 1,
-  ""evidence"": ""脂肪肝、肝内钙化灶、左肾囊肿""
-}
-```",077de153a83840e0
+ECG_0283,6c411dc50b62bda0,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 1, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""T波改变""}
+```",2ec04c7205a37a51
+ECG_0284,54d303398fa6f9a3,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律""}
+```",427e7f6253981909
 ECG_0285,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
 ECG_0286,4c41fa9194a62f5b,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":1,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""I度房室传导阻滞""}
 ```",62e9938fb39062b1
-ECG_0287,c612752332872af9,"```json
-{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
-```",baf2cfe6f25c91a8
+ECG_0287,cfc961758471f4d5,"```json
+{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":1,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律不齐""}
+```",f6e86c5eb2d2dc98
 ECG_0288,2f5bec638e66f147,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""左室高电压""}
 ```",bd773e627b79ab92
@@ -914,15 +886,15 @@ ECG_0290,33bc43fcf9a94dad,"```json
 ECG_0291,98b689954bc8c8ea,"```json
 {""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""肢体导联低电压""}
 ```",057f77b7df9b01db
-ECG_0292,c612752332872af9,"```json
-{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
-```",baf2cfe6f25c91a8
+ECG_0292,98b689954bc8c8ea,"```json
+{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 1, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 0, ""evidence"": ""肢体导联低电压""}
+```",057f77b7df9b01db
 ECG_0293,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
-ECG_0294,1222391d8d7b9b27,"```json
-{""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":1,""evidence"":""胆囊切除""}
-```",ac38d815abefa0bc
+ECG_0294,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0295,e6a3c45e66a71afe,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":1,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心律，T波低平双向、左室高电压""}
 ```",c9562b6a66dd69f0
@@ -938,9 +910,9 @@ ECG_0298,235ca39727135fc3,"```json
 ECG_0299,c612752332872af9,"```json
 {""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
 ```",baf2cfe6f25c91a8
-ECG_0300,a08288bf97f27916,"```json
-{""ecg_normal"": 0, ""ecg_af"": 0, ""ecg_pac_pvc"": 0, ""ecg_stt"": 0, ""ecg_avblock"": 0, ""ecg_bbb"": 0, ""ecg_rate"": 0, ""ecg_srirr"": 0, ""ecg_axis"": 0, ""ecg_qwave_mi"": 0, ""ecg_other"": 0, ""ecg_unreadable"": 1, ""evidence"": ""膀胱不充盈，子宫附件无法看清、脂肪肝、右肾囊肿6*6mm、双肾结石4*4mm。""}
-```",816a83205eb851ea
+ECG_0300,c612752332872af9,"```json
+{""ecg_normal"":1,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":0,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""未见明显异常""}
+```",baf2cfe6f25c91a8
 ECG_0301,ee478cf9e5855b51,"```json
 {""ecg_normal"":0,""ecg_af"":0,""ecg_pac_pvc"":0,""ecg_stt"":0,""ecg_avblock"":0,""ecg_bbb"":0,""ecg_rate"":1,""ecg_srirr"":0,""ecg_axis"":0,""ecg_qwave_mi"":0,""ecg_other"":0,""ecg_unreadable"":0,""evidence"":""窦性心动过速""}
 ```",e58178634ed6bdba

@@ -1,0 +1,34 @@
+{
+ "database_version": "v3.5",
+ "freeze_date": "2026-09-18",
+ "frozen_by": "institutional data custodian",
+ "status": "FROZEN - single authoritative analysis database; all statistical analyses use this version",
+ "fingerprints": {
+  "H_checkup_long.csv": {
+   "sha256": "d0949ee9fd6a7c2b44163102432467a682d6da3d09ce657f66aa844c3833441c",
+   "bytes": 47966558
+  },
+  "H_analysis_long.csv": {
+   "sha256": "3ca9ca8c67176b48e4ad0ab4490296e5a3b530d9fb3dee203410dd8e6bf002c8",
+   "bytes": 75031419
+  },
+  "H_checkup_long_v3.5_20260917.csv": {
+   "sha256": "d0949ee9fd6a7c2b44163102432467a682d6da3d09ce657f66aa844c3833441c",
+   "bytes": 47966558
+  },
+  "H_analysis_long_v3.5_20260917.csv": {
+   "sha256": "3ca9ca8c67176b48e4ad0ab4490296e5a3b530d9fb3dee203410dd8e6bf002c8",
+   "bytes": 75031419
+  }
+ },
+ "snapshots": [
+  {
+   "snapshot": "H_checkup_long_v3.5_20260917.csv",
+   "sha256": "d0949ee9fd6a7c2b44163102432467a682d6da3d09ce657f66aa844c3833441c"
+  },
+  {
+   "snapshot": "H_analysis_long_v3.5_20260917.csv",
+   "sha256": "3ca9ca8c67176b48e4ad0ab4490296e5a3b530d9fb3dee203410dd8e6bf002c8"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+﻿id,claim,claimed,actual,verdict
+C1,"visit-records 122,575",122575.0,122575.0,PASS
+C2,"individuals 30,677",30677.0,30677.0,PASS
+C3,"v1-readable ECG narratives 121,220",121220.0,121220.0,PASS
+C4,MASLD prevalence 40.1%,40.1,40.1,PASS
+G1,"gold total 1,470",1470.0,1470.0,PASS
+G2,43 disagreeing labels arbitrated (two rounds),43.0,43.0,PASS
+G3,15 uncertainty flags upheld,15.0,15.0,PASS
+G4,annotator κ min 0.00 (ABDUS main_discrepant@2022),0.0,0.0,PASS
+G4b,annotator κ range excl. degenerate stratum min 0.66,0.66,0.66,PASS
+G5,annotator κ range max 1.00,1.0,1.0,PASS
+G6,lvh re-annot κ 0.83→0.98 (v2.0),0.98,0.98,PASS
+G7,lvh round1 κ was 0.83,0.83,0.832,PASS
+G8,la_dilate re-annot κ 0.81→1.00,1.0,1.0,PASS
+G9,la_dilate round1 κ was 0.81,0.81,0.814,PASS
+G10,lvh v2.0 F1 0.98,0.98,0.982,PASS
+G11,lvh final prevalence 28/300 (final-resolution 口径),28.0,28.0,PASS
+G12,la_dilate final prevalence 33/300,33.0,33.0,PASS
+G13,self-repeat 60/66 pairs raw≥0.90,60.0,60.0,PASS
+G14,self-repeat κ<0.85 in 19/66,19.0,19.0,PASS
+G15a,changed labels total 84,84.0,84.0,PASS
+G15b,46/84 changed labels rule-revised,46.0,46.0,PASS
+G16,nested re-annotation 120/120,120.0,120.0,PASS
+G17,residual F1 gap ECG other 0.89,0.89,0.89,PASS
+G18,residual F1 gap main_discrepant 0.90,0.9,0.9,PASS
+D1,v1-v3 overall raw 92.3%,92.33,92.33,PASS
+D2,v1-v3 overall κ=0.84,0.84,0.84,PASS
+D3,2022 κ=0.88（崩塌消失，H 层修正后）,0.88,0.88,PASS
+D4,2023 mixed-definition κ=0.693（清洁库重建后）,0.693,0.693,PASS
+D5,2024 κ=0.71,0.71,0.71,PASS
+D6,stable years κ 0.88–0.96 (min),0.88,0.88,PASS
+D7,stable years κ 0.88–0.96 (max),0.96,0.96,PASS
+D8,2023 positive-call v1 36.9%,37.0,36.9,PASS
+D9,2023 positive-call v3 52.1%,52.0,52.1,PASS
+P1,production outcome fullcov HR 0.974 p=0.229,0.974,0.974,PASS
+P2,ST-T fullcov HR 1.079 p=0.0076,1.079,1.079,PASS
+P3,ST-T +FE HR 1.074 p=0.0067,1.074,1.074,PASS
+P4,AF fullcov HR 0.876 p=0.363,0.876,0.876,PASS
+P5,anyBlock fullcov HR 1.034 p=0.488,1.034,1.034,PASS
+P8,v1 harmonized HR 0.958 p=0.035,0.958,0.958,PASS
+P9,v3 harmonized HR 0.953 p=0.013,0.953,0.953,PASS
+P10,v3+FE HR 0.964 p=0.096,0.964,0.964,PASS
+P11,"v3 events 14,668",14668.0,14668.0,PASS
+P12,"v1 events 13,016",13016.0,13016.0,PASS
+P13,naive production HR 0.959 p=0.046,0.959,0.959,PASS
+P14,naive+FE HR 0.961 p=0.056,0.961,0.961,PASS
+P15,adjudicated production HR 0.960 p=0.052,0.96,0.96,PASS
+P16,spec-curve median HR 0.969 (24 specs),0.969,0.969,PASS
+P17,version ΔHR +0.0018 (yearFE),0.0018,0.0018,PASS
+B1 κ=0.6,HR_true=1.30 → observed 1.17,1.17,1.17,PASS
+B1 κ=0.8,HR_true=1.30 → observed 1.23,1.23,1.23,PASS
+B1 κ=0.95,HR_true=1.30 → observed 1.28,1.28,1.28,PASS
+S1,measured κ 0.99 (0.9929),0.99,0.99,PASS
+S2,n=585,585.0,585.0,PASS
+S3,SIMEX naive 0.9533→0.9528,0.9528,0.9528,PASS
+S4,SIMEX ST-T 1.0787→1.0796,1.0796,1.0796,PASS
+E1,JSON compliance 300/300 (14b),300.0,300.0,PASS
+E2,lvh κ=0.944,0.944,0.944,PASS
+E3,lvh F1 0.949,0.949,0.949,PASS
+E4,echo_normal κ=0.973,0.973,0.973,PASS
+E5,ef κ=1.000,1.0,1.0,PASS
+E6,reflux κ=0.935,0.935,0.935,PASS
+E7,la_dilate κ=0.877 F1=0.892,0.892,0.892,PASS
+E8,echo_variant κ=0.833,0.833,0.833,PASS
+E9,14b 5/7 PASS,5.0,5.0,PASS
+E10,7b 4/7 PASS,4.0,4.0,PASS
+E11,glm4 3/7 PASS,3.0,3.0,PASS
+L1,14b median 4.12s,4.12,4.12,PASS
+L2,7b median 2.47s,2.47,2.47,PASS
+L3,glm4 median 2.66s,2.66,2.66,PASS
+L4,GPU-h/1000 0.69–1.23 (max),1.23,1.23,PASS
+T1,14b 10/12 PASS,10.0,10.0,PASS
+T2,passing κ min 0.93,0.93,0.93,PASS
+T3,passing κ max 1.00,1.0,1.0,PASS
+T4,avblock κ=0.93,0.93,0.93,PASS
+T5,rate κ=0.93,0.93,0.93,PASS
+T6,ecg_other κ=0.68 (FAIL),0.68,0.68,PASS
+T7,7b 8/12,8.0,8.0,PASS
+T8,glm4 7/12,7.0,7.0,PASS
+F1,14b 2022 κ=0.97,0.97,0.97,PASS
+F2,14b 2023 κ=0.897,0.897,0.897,PASS
+F3,14b strata min 0.84,0.84,0.84,PASS
+F4,v1 2023 κ=0.93,0.93,0.93,PASS
+F5,strata n 71–94 (min),71.0,71.0,PASS
+F6,strata n 71–101 (max),101.0,101.0,PASS
+F7 qwen2.5:7b,Fig2b claim min κ 0.82,0.82,0.82,PASS
+F7 glm4:9b,Fig2b claim min κ 0.89,0.89,0.89,PASS
+F8,v3 all years min κ=0.84,0.84,0.84,PASS
+N1,2022 definition-matched κ 0.993,0.993,0.993,PASS
+N2,2024 mixed-definition κ 0.714,0.714,0.714,PASS
+N3,2024 definition-matched κ 0.987,0.987,0.987,PASS
+N4,prompt perturbation 'baseline_v1' mean κ 0.934,0.934,0.934,PASS
+N5,prompt perturbation 'aparaphrase' mean κ 0.931,0.931,0.931,PASS
+N6,prompt perturbation 'breorder' mean κ 0.927,0.927,0.927,PASS
+N7,masld×year LRT χ²=23.56 (df=5),23.56,23.56,PASS
+N8,masld×year LRT P=0.000264,0.000264,0.000264,PASS
+N9,2023 definition-matched κ 0.984,0.984,0.984,PASS
+N10,"2023 divergent stratum 3,204 records",3204.0,3204.0,PASS
+N11,2023 divergent stratum 14.8% of cohort,14.8,14.8,PASS
+N12,measured κ 0.9894 (585-report calibration),0.9894,0.9894,PASS
+N13,naive observed HR 0.9533,0.9533,0.9533,PASS
+N14,ST-T observed HR 1.0787,1.0787,1.0787,PASS
+N15,160-record inter-annotator κ 0.985,0.985,0.985,PASS
+N16,160-record raw agreement 99.4%,99.4,99.4,PASS
+N17,description-based fatty-liver κ min 0.49,0.49,0.49,PASS
+N18,description-based fatty-liver κ max 0.55,0.55,0.55,PASS
+N19,cross-library PD κ min 0.997,0.997,0.997,PASS
+N20,cross-library PD κ max 0.998,0.998,0.998,PASS
+N21,2023 consistency-family κ z=−4.71,4.71,4.71,PASS
+N22,2022 in-line enumeration z=9.07,9.07,9.07,PASS
+N23,2022 ECG-prefix z=15.07,15.07,15.07,PASS
+N24,decision-stratum Wilson lower 0.093,0.093,0.093,PASS
+N25,decision-stratum Wilson upper 0.233,0.233,0.233,PASS
+N26,naive production 95% CI lower 0.921,0.921,0.921,PASS
+N27,naive production 95% CI upper 0.999,0.999,0.999,PASS
+N28,naive production P 0.046,0.046,0.0455259760369179,PASS
+N29,naive+FE P 0.056,0.056,0.0559690107574505,PASS
+N30,adjudicated production P 0.052,0.052,0.052386070886215,PASS
+N31,adjudicated+FE HR 0.963,0.963,0.963,PASS
+N32,adjudicated+FE P 0.072,0.072,0.0722932952865473,PASS
+N33,leave-2023-out adjudicated HR 0.957,0.957,0.957,PASS
+N34,leave-2023-out adjudicated P 0.062,0.062,0.0625835427589697,PASS
+N35,harmonized grid FE=0 P min 0.011,0.011,0.011,PASS
+N36,harmonized grid FE=0 P max 0.035,0.035,0.035,PASS
+N37,harmonized grid FE=1 P max 0.098,0.098,0.098,PASS
+N53,harmonized grid FE=1 P min 0.040 (validation enum.),0.04,0.04,PASS
+N38,ST-T P 0.008,0.008,0.0075763598231482,PASS
+N39,ST-T year-FE P 0.007,0.007,0.0066549880966023,PASS
+N40,"version ΔHR 0.002 (year-FE, 3dp)",0.002,0.0018,PASS
+N41,ΔHR 90% CI lower 0.018,0.018,0.0178,PASS
+N42,ΔHR 90% CI upper 0.019,0.019,0.0192,PASS
+N43,four-domain self-repeat records 147,147.0,147.0,PASS
+N44,below-gate ecg_other κ 0.683,0.683,0.683,PASS
+N45,below-gate ecg_unreadable κ 0.666,0.666,0.666,PASS
+N46,ECHO_PG κ range min 0.925,0.925,0.925,PASS
+N47,decision-stratum proportion 0.15,0.15,0.15,PASS
+N48,decision-stratum Wilson lower 9.3%,9.3,9.305985248417562,PASS
+N49,decision-stratum Wilson upper 23.3%,23.3,23.28355966541218,PASS
+N50,2023 consistency-family z 4.7 (1dp),4.7,4.71,PASS
+N51,2022 in-line enumeration z 9.1 (1dp),9.1,9.07,PASS
+N52,2022 ECG-prefix z 15.0 (1dp),15.0,15.07,PASS

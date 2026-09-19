@@ -1,0 +1,4 @@
+﻿model,n,mean_latency_s,median_latency_s,p95_latency_s,mean_completion_tokens,tokens_per_s,est_gpu_hours_per_1000
+qwen2.5:14b,20,4.43,4.12,5.48,85.0,19.2,1.23
+qwen2.5:7b,20,2.47,2.47,2.57,87.6,35.5,0.69
+glm4:9b,20,2.94,2.66,4.55,99.2,33.6,0.82

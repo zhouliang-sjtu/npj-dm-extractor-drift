@@ -1,0 +1,100 @@
+﻿{
+  "protocol": "LLM text-extraction measurement protocol v1.1 (double-annotated gold-standard subset: 1,470 reports across three text domains)",
+  "extractors": [
+    {
+      "variable_domain": "ECG_H",
+      "extractor_type": "dictionary_v1 (production) | dictionary_v3 (negation-window) | llm",
+      "model_name": "qwen2.5:14b / 7b, glm4:9b (Ollama, local)",
+      "model_version": "qwen2.5 14b/7b instruct; glm-4-9b-chat (Ollama default quantization, tag logged per batch)",
+      "prompt_hash_sha256_16": "dbb1ebe717ad3497",
+      "prompt_version": "v1",
+      "prompt_file": "docs/prompts/llm_ecg_prompt_template_v1.md",
+      "temperature": 0.0,
+      "seed": 42,
+      "gold_standard_file": "data/gold_ecg_H.csv (570 reports, full deduplicated stratified sample)",
+      "annotators": "A1 (medical-imaging physician, intermediate grade, general practice, 1-year ultrasound rotation); A2 (clinical-medicine physician, intermediate grade, general practice, 2-year medical-technology rotations)",
+      "acceptance": {
+        "file": "results/m2d_acceptance_ecg.csv",
+        "gold": "data/金标准标注工作簿_终版.xlsx (ECG_H, n=570, double-annotated + adjudicated final)",
+        "below_gate": {
+          "ecg_other": "kappa=0.685, acc=0.963; 15 false negatives are all isolated left-ventricular-high-voltage statements (annotator consensus other=1 conflicts with the arbitrated convention ECG_0175/codebook v2.0 — gold-standard convention inconsistency, the model follows the arbitrated convention); 6 false positives are findings not enumerated in the manual other-list (aberrant conduction x3, QT prolongation, short PR, one domain-contaminated text)"
+        },
+        "summary": "qwen2.5:14b 11/12 PASS (kappa 0.92-1.00), 7b 7/12, glm4 7/12; any-abnormal per-year kappa: 14b 0.966-1.000 in every year (including the 2022-23 template transition), dict v1 collapses to 0.41 in the same years, dict v3 1.000 (rules share the annotation manual)"
+      },
+      "status": "frozen",
+      "frozen_date": "2026-09-09",
+      "note": "ECG 12-variable multi-label prompt v1 (mirrors codebook v2.0 conventions: early repolarisation / high voltage / AF with rapid ventricular rate / sinoatrial block / domain-mismatch rules); 570-report validation batch run 2026-09-09",
+      "accepted_model": "qwen2.5:14b (Ollama, local)"
+    },
+    {
+      "variable_domain": "ECHO_PG",
+      "extractor_type": "regex (EF, deterministic) + llm (classification)",
+      "gold_standard_file": "data/gold_echo_PG_300.csv (300, nested subset of the 600-report rule-stratified parent)",
+      "status": "frozen",
+      "frozen_date": "2026-09-09",
+      "model_name": "qwen2.5:14b (Ollama, local)",
+      "model_version": "qwen2.5 14b instruct",
+      "prompt_version": "v2.1",
+      "prompt_hash_sha256_16": "adf66aecbb80e25b",
+      "prompt_file": "docs/prompts/llm_echo_prompt_template_v2_1.md",
+      "temperature": 0.0,
+      "seed": 42,
+      "prerun": {
+        "n": 600,
+        "json_rate_pct": 99.7,
+        "error": 0,
+        "note": "v1-prompt pre-run (no rhythm field); re-run with prompt v2 for gold-standard acceptance"
+      },
+      "comparators": [
+        "qwen2.5:7b (local)",
+        "glm4:9b (local)"
+      ],
+      "prompt_v2_1_changes": [
+        "synchronised with annotation manual v2.0: LVH >= 12 mm and left-atrial diameter >= 40 mm both threshold-inclusive",
+        "added: pericardial effusion / intracardiac echogenicity of uncertain nature counts as structural abnormality -> label=abnormal",
+        "added: unreadable definition includes domain mismatch (non-cardiac-ultrasound content)",
+        "added: left-atrial transverse diameters are descriptive only and excluded from the 40-mm threshold (basis: gold-standard frozen convention, case ECHO_0232)",
+        "added: explicit label aggregation rule (any abnormal field=1 -> abnormal)",
+        "reflux_grade: most severe grade when multiple valves involved (explicit)"
+      ],
+      "accepted_model": "qwen2.5:14b (Ollama, local)",
+      "acceptance": {
+        "file": "results/m2d_acceptance.csv",
+        "gold": "data/金标准标注工作簿_终版.xlsx (ECHO_PG, n=300, double-annotated + adjudicated final)",
+        "score_mode": "derived scoring: echo_normal / echo_variant deterministically derived from frozen structured fields plus the label field",
+        "variable_notes": {
+          "echo_la_dilate": "below-gate restricted use: kappa=0.877/acc=0.973 pass, F1_pos=0.892 below the 0.90 gate (8 false positives: 4 sub-threshold misjudgements, 2 non-enumerated phrasings, 1 without quadrant diameter, 1 LV/LA confusion); 95% CI overlaps 0.90",
+          "echo_variant": "below-gate restricted use: kappa=0.833 but acc=0.936/F1=0.876 below gate; errors largely inherited from reflux grading and 7 gold-variant rows with reflux != trace_mild convention noise"
+        }
+      }
+    },
+    {
+      "variable_domain": "ABDUS_PG",
+      "extractor_type": "dictionary (description-based criteria)",
+      "gold_standard_file": "data/gold_abdus_PG_300.csv (300, nested subset of the 600-report rule-stratified parent)",
+      "status": "frozen",
+      "frozen_date": "2026-09-10",
+      "accepted_model": "dictionary v1 (production rules, verbatim)"
+    },
+    {
+      "variable_domain": "ABDUS_H",
+      "extractor_type": "dictionary (description-based criteria)",
+      "gold_standard_file": "data/gold_abdus_H_300.csv (300, 30/year + positive top-up)",
+      "status": "frozen",
+      "frozen_date": "2026-09-10",
+      "accepted_model": "dictionary v1 (production rules, verbatim)"
+    }
+  ],
+  "rules": [
+    "main analysis uses only status=frozen, gate-passing extractors",
+    "model/prompt upgrades are analysed as sensitivity analyses only, never back-written to the production database",
+    "every batch logs input/output SHA-256 hashes (logged automatically by the batch runner)"
+  ],
+  "runtime_disclosure": {
+    "serving": "Ollama (local, OpenAI-compatible endpoint)",
+    "ollama_version": "0.24.0 (re-verified in the release environment, 2026-09-11; per-batch version was not logged at run time — cross-hardware bit-exact determinism is not claimed; see manuscript Limitations)",
+    "quantization": "Q4_K_M for Qwen2.5-14B/7B-Instruct, Q4_0 for GLM-4-9b-chat (Ollama tag defaults, verified 2026-09-11)",
+    "determinism": "temperature=0 + seed=42; deterministic within identical software/hardware environments only"
+  },
+  "updated": "2026-09-10"
+}

@@ -1,0 +1,5 @@
+﻿side,estimate,HR_observed,HR_corrected,corr_lo,corr_hi,attenuation_pct,method
+exposure,harmonized_v3(phantom),0.9533,0.9528,0.9522,0.9533,-0.1,"bootstrap(B=1000, strict)"
+exposure,fullcov_STT(specificity-matched),1.0787,1.0796,1.0787,1.0806,0.1,"bootstrap(B=1000, strict)"
+outcome,harmonized_v1(legacy outcome),0.9579,0.9536,0.9526,0.9546,-0.4,"scenario(±10% Se, Dirichlet weights)"
+outcome,fullcov_anyAbnormal(production outcome),0.9742,0.9715,0.9709,0.9722,-0.3,"scenario(±10% Se, Dirichlet weights)"

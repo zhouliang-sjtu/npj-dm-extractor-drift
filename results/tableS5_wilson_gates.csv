@@ -1,0 +1,65 @@
+﻿domain,model,variable,target_class,n,TP,FP,FN,F1,Wilson_lo,Wilson_hi,vs_gate
+ECG,qwen2.5:14b,ecg_normal,1,561,224,2,1,0.9933,0.9806,0.9977,excludes 0.90 (above)
+ECG,qwen2.5:14b,ecg_af,1,570,58,0,0,1.0,0.9679,1.0,excludes 0.90 (above)
+ECG,qwen2.5:14b,ecg_pac_pvc,1,570,29,1,0,0.9831,0.91,0.997,excludes 0.90 (above)
+ECG,qwen2.5:14b,ecg_stt,1,568,129,2,2,0.9847,0.9614,0.994,excludes 0.90 (above)
+ECG,qwen2.5:14b,ecg_avblock,1,569,44,6,0,0.9362,0.8677,0.9704,contains 0.90
+ECG,qwen2.5:14b,ecg_bbb,1,570,46,0,1,0.9892,0.9416,0.9981,excludes 0.90 (above)
+ECG,qwen2.5:14b,ecg_rate,1,570,48,7,0,0.932,0.8663,0.9667,contains 0.90
+ECG,qwen2.5:14b,ecg_srirr,1,570,13,0,0,1.0,0.8713,1.0,contains 0.90
+ECG,qwen2.5:14b,ecg_axis,1,570,32,1,1,0.9697,0.8961,0.9917,contains 0.90
+ECG,qwen2.5:14b,ecg_qwave_mi,1,570,2,0,0,1.0,0.5101,1.0,contains 0.90
+ECG,qwen2.5:14b,ecg_other,1,570,25,5,17,0.6944,0.5805,0.7887,excludes 0.90 (below)
+ECG,qwen2.5:14b,ecg_unreadable,1,570,24,1,0,0.9796,0.8931,0.9964,contains 0.90
+ECG,qwen2.5:7b,ecg_normal,1,561,224,1,1,0.9956,0.9839,0.9988,excludes 0.90 (above)
+ECG,qwen2.5:7b,ecg_af,1,570,58,0,0,1.0,0.9679,1.0,excludes 0.90 (above)
+ECG,qwen2.5:7b,ecg_pac_pvc,1,570,25,3,4,0.8772,0.7675,0.9392,contains 0.90
+ECG,qwen2.5:7b,ecg_stt,1,568,121,2,10,0.9528,0.9193,0.9728,excludes 0.90 (above)
+ECG,qwen2.5:7b,ecg_avblock,1,569,44,3,0,0.967,0.9075,0.9887,excludes 0.90 (above)
+ECG,qwen2.5:7b,ecg_bbb,1,570,43,4,4,0.9149,0.841,0.9562,contains 0.90
+ECG,qwen2.5:7b,ecg_rate,1,570,39,1,9,0.8864,0.8033,0.9371,contains 0.90
+ECG,qwen2.5:7b,ecg_srirr,1,570,13,1,0,0.963,0.8172,0.9934,contains 0.90
+ECG,qwen2.5:7b,ecg_axis,1,570,24,0,9,0.8421,0.7264,0.9146,contains 0.90
+ECG,qwen2.5:7b,ecg_qwave_mi,1,570,2,0,0,1.0,0.5101,1.0,contains 0.90
+ECG,qwen2.5:7b,ecg_other,1,570,3,0,39,0.1333,0.0626,0.2618,excludes 0.90 (below)
+ECG,qwen2.5:7b,ecg_unreadable,1,570,16,0,8,0.8,0.6524,0.895,excludes 0.90 (below)
+ECG,glm4:9b,ecg_normal,1,561,225,8,0,0.9825,0.9659,0.9911,excludes 0.90 (above)
+ECG,glm4:9b,ecg_af,1,570,58,0,0,1.0,0.9679,1.0,excludes 0.90 (above)
+ECG,glm4:9b,ecg_pac_pvc,1,570,29,0,0,1.0,0.9379,1.0,excludes 0.90 (above)
+ECG,glm4:9b,ecg_stt,1,568,123,1,8,0.9647,0.9343,0.9813,excludes 0.90 (above)
+ECG,glm4:9b,ecg_avblock,1,569,44,38,0,0.6984,0.6134,0.7717,excludes 0.90 (below)
+ECG,glm4:9b,ecg_bbb,1,570,40,1,7,0.9091,0.8307,0.9532,contains 0.90
+ECG,glm4:9b,ecg_rate,1,570,38,4,10,0.8444,0.7557,0.905,contains 0.90
+ECG,glm4:9b,ecg_srirr,1,570,13,1,0,0.963,0.8172,0.9934,contains 0.90
+ECG,glm4:9b,ecg_axis,1,570,26,12,7,0.7324,0.6195,0.8215,excludes 0.90 (below)
+ECG,glm4:9b,ecg_qwave_mi,1,570,2,0,0,1.0,0.5101,1.0,contains 0.90
+ECG,glm4:9b,ecg_other,1,570,11,7,31,0.3667,0.2562,0.4932,excludes 0.90 (below)
+ECG,glm4:9b,ecg_unreadable,1,570,8,0,16,0.5,0.3363,0.6637,excludes 0.90 (below)
+ECHO,qwen2.5:14b,echo_lvh,1,298,28,3,0,0.9492,0.8608,0.9826,contains 0.90
+ECHO,qwen2.5:14b,echo_la_dilate,1,298,33,8,0,0.8919,0.8009,0.9442,contains 0.90
+ECHO,qwen2.5:14b,echo_normal,0,298,224,1,2,0.9933,0.9806,0.9977,excludes 0.90 (above)
+ECHO,qwen2.5:14b,echo_variant,1,297,67,14,5,0.8758,0.8142,0.919,contains 0.90
+ECHO,qwen2.5:14b,ef_abnormal,1,298,15,0,0,1.0,0.8865,1.0,contains 0.90
+ECHO,qwen2.5:14b,reflux_grade,none,298,84,0,1,0.9941,0.9672,0.999,excludes 0.90 (above)
+ECHO,qwen2.5:14b,reflux_grade,trace_mild,298,100,4,5,0.9569,0.9202,0.9772,excludes 0.90 (above)
+ECHO,qwen2.5:14b,reflux_grade,moderate,298,99,6,6,0.9429,0.9028,0.967,excludes 0.90 (above)
+ECHO,qwen2.5:14b,echo_unreadable,1,300,2,0,0,1.0,0.5101,1.0,contains 0.90
+ECHO,qwen2.5:7b,echo_lvh,1,298,27,3,1,0.931,0.8357,0.9729,contains 0.90
+ECHO,qwen2.5:7b,echo_la_dilate,1,298,24,2,9,0.8136,0.6962,0.8926,excludes 0.90 (below)
+ECHO,qwen2.5:7b,echo_normal,0,298,223,1,3,0.9911,0.9774,0.9965,excludes 0.90 (above)
+ECHO,qwen2.5:7b,echo_variant,1,297,67,31,5,0.7882,0.7208,0.8429,excludes 0.90 (below)
+ECHO,qwen2.5:7b,ef_abnormal,1,298,15,0,0,1.0,0.8865,1.0,contains 0.90
+ECHO,qwen2.5:7b,reflux_grade,none,298,84,0,1,0.9941,0.9672,0.999,excludes 0.90 (above)
+ECHO,qwen2.5:7b,reflux_grade,trace_mild,298,102,24,3,0.8831,0.8353,0.9184,contains 0.90
+ECHO,qwen2.5:7b,reflux_grade,moderate,298,82,6,23,0.8497,0.7925,0.8933,excludes 0.90 (below)
+ECHO,qwen2.5:7b,echo_unreadable,1,300,2,0,0,1.0,0.5101,1.0,contains 0.90
+ECHO,glm4:9b,echo_lvh,1,298,8,2,20,0.4211,0.2785,0.5781,excludes 0.90 (below)
+ECHO,glm4:9b,echo_la_dilate,1,298,20,2,13,0.7273,0.5977,0.8272,excludes 0.90 (below)
+ECHO,glm4:9b,echo_normal,0,298,222,1,4,0.9889,0.9742,0.9952,excludes 0.90 (above)
+ECHO,glm4:9b,echo_variant,1,297,59,12,13,0.8252,0.7546,0.8787,excludes 0.90 (below)
+ECHO,glm4:9b,ef_abnormal,1,298,15,0,0,1.0,0.8865,1.0,contains 0.90
+ECHO,glm4:9b,reflux_grade,none,298,84,0,1,0.9941,0.9672,0.999,excludes 0.90 (above)
+ECHO,glm4:9b,reflux_grade,trace_mild,298,76,0,29,0.8398,0.7794,0.8861,excludes 0.90 (below)
+ECHO,glm4:9b,reflux_grade,moderate,298,52,28,53,0.5622,0.4901,0.6317,excludes 0.90 (below)
+ECHO,glm4:9b,reflux_grade,severe,298,3,55,0,0.0984,0.0459,0.1984,excludes 0.90 (below)
+ECHO,glm4:9b,echo_unreadable,1,300,2,0,0,1.0,0.5101,1.0,contains 0.90

@@ -1,0 +1,4 @@
+﻿domain,n,prevalence_gold,agreement,cohen_kappa
+ABDUS_PG,285,0.4737,1.0,1.0
+ABDUS_H,300,0.7033,0.9933,0.9839
+POOLED,585,0.5915,0.9966,0.9929

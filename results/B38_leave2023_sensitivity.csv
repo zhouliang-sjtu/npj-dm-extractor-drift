@@ -1,0 +1,13 @@
+﻿definition,scope,yearFE,HR,CI,CIh,p
+"explicit-positive (main, production enum)",full (2018-2024),no,0.9595,0.92,1.0,0.05238607088621507
+"explicit-positive (main, production enum)",full (2018-2024),yes,0.9626,0.923,1.003,0.07229329528654733
+"explicit-positive (main, production enum)",leave-2023-out,no,0.9565,0.913,1.002,0.05922780735331441
+"explicit-positive (main, production enum)",leave-2023-out,yes,0.9573,0.914,1.002,0.06258354275896978
+naive not-explicitly-normal,full (2018-2024),no,0.9593,0.921,0.999,0.04552597603691796
+naive not-explicitly-normal,full (2018-2024),yes,0.9611,0.923,1.001,0.0559690107574505
+naive not-explicitly-normal,leave-2023-out,no,0.9634,0.92,1.009,0.11087091300836052
+naive not-explicitly-normal,leave-2023-out,yes,0.9621,0.919,1.007,0.0970511183084959
+enumerated OR (validation),full (2018-2024),no,0.9556,0.917,0.996,0.029606773262109067
+enumerated OR (validation),full (2018-2024),yes,0.96,0.922,1.0,0.049538568666861606
+enumerated OR (validation),leave-2023-out,no,0.9556,0.913,1.0,0.05118125247647261
+enumerated OR (validation),leave-2023-out,yes,0.9575,0.915,1.002,0.061709267531698406

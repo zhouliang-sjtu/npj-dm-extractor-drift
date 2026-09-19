@@ -1,0 +1,13 @@
+﻿spec,outcome,HR,CI_lo,CI_hi,Evalue_point,Evalue_CI,Evalue_CI_crosses_1
+fullcov_anyAbnormal,ecg_abnormal,1.0662,1.0217,1.1125,1.332,1.171,False
+fullcov_anyAbnormal+yearFE,ecg_abnormal,0.9813,0.9333,1.0318,1.158,,True
+fullcov_STT,ecg_stt,1.1554,1.0897,1.2251,1.579,1.402,False
+fullcov_STT+yearFE,ecg_stt,1.0567,0.9879,1.1303,1.301,,True
+fullcov_AF,ecg_af,0.9407,0.7019,1.2607,1.322,,True
+fullcov_AF+yearFE,ecg_af,0.9479,0.8825,1.0181,1.296,,True
+fullcov_anyBlock,ecg_anyBlock,0.9333,0.8469,1.0285,1.348,,True
+fullcov_anyBlock+yearFE,ecg_anyBlock,0.9831,0.8942,1.0808,1.149,,True
+harmonized_v1,v1_abnormal,1.0296,0.9888,1.0722,1.204,,True
+harmonized_v1+yearFE,v1_abnormal,0.9663,0.921,1.0137,1.225,,True
+harmonized_v3,v3_abnormal,1.0751,1.0328,1.1191,1.359,1.217,False
+harmonized_v3+yearFE,v3_abnormal,0.9591,0.9127,1.0078,1.254,,True

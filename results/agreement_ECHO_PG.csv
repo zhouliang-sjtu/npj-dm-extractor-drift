@@ -1,0 +1,9 @@
+﻿variable,n,raw_agreement,cohen_kappa,gwet_ac1,prec_0,rec_0,F1_0,prec_1,rec_1,F1_1,prec_moderate,rec_moderate,F1_moderate,prec_none,rec_none,F1_none,prec_severe,rec_severe,F1_severe,prec_trace_mild,rec_trace_mild,F1_trace_mild
+echo_normal,300,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,
+echo_variant,300,0.997,0.991,0.995,1.0,0.996,0.998,0.986,1.0,0.993,,,,,,,,,,,,
+echo_lvh,300,0.997,0.98,0.996,0.996,1.0,0.998,1.0,0.964,0.982,,,,,,,,,,,,
+echo_la_dilate,300,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,
+ef_abnormal,300,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,
+reflux_grade,298,1.0,1.0,1.0,,,,,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+echo_rhythm,300,0.993,0.925,0.993,1.0,0.993,0.997,0.867,1.0,0.929,,,,,,,,,,,,
+echo_unreadable,300,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,

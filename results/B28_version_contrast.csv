@@ -1,0 +1,3 @@
+﻿contrast,B,ok,HR_v1,HR_v3,dHR_full,dHR_lo90,dHR_hi90,dHR_lo95,dHR_hi95,p_two_sided,TOST_pm5pct
+harmonized_v1 vs harmonized_v3,300,300,0.9579,0.9533,-0.0046,-0.0255,0.0133,-0.029,0.0175,0.6067,True
+harmonized_v1+yearFE vs harmonized_v3+yearFE,300,300,0.9626,0.9644,0.0018,-0.0178,0.0192,-0.0206,0.0228,0.98,True
